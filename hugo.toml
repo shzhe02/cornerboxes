@@ -5,11 +5,16 @@ theme = 'PaperModX'
 paginate = 10
 
 [params]
+env = "production"
 defaultTheme = 'auto'
 showtoc = true
 tocopen = true
 ShowBreadCrumbs = true
+ShowShareButtons = true
+ShowReadingTime = true
+ShowPostNavLinks = true
 TocSide = 'right'
+mainSections = ["bundles", "logbooks"]
 
 [params.homeInfoParams]
 Title = 'Welcome 👋'
@@ -20,7 +25,13 @@ Content = """Hi! I'm Harvey Lim. Here's a quick introduction of me:
 
 This website is a small blog of sorts, with posts revolving around my interests. I hope you enjoy reading what I have created!
 
-...note to self, make this better later T-T
+For now, there are 3 sections:
+- [Bundles](/bundles)
+    - Bundles are essentially information packets which I create to share the experience I have with a particular hobby or interest of mine.
+- [Logbooks](/logbooks)
+    - Logbooks are where I write log entries detailing a process I am currently undertaking.
+- [About](/about)
+    - This section includes more information about me and this site.
 """
 
 [[params.socialIcons]]
@@ -36,14 +47,29 @@ languageName = "English"
 weight = 1
 
 [[languages.en.menu.main]]
+name = "Bundles"
+url = "/bundles/"
+weight = 2
+
+[[languages.en.menu.main]]
+name = "Logbooks"
+url = "/logbooks/"
+weight = 3
+
+[[languages.en.menu.main]]
 name = "Archive"
 url = "/archives/"
-weight = 5
+weight = 28
 
 [[languages.en.menu.main]]
 name = "Search"
 url = "/search/"
-weight = 10
+weight = 29
+
+[[languages.en.menu.main]]
+name = "About"
+url = "/about/"
+weight = 30
 
 [outputs]
 home = [ "HTML", "RSS", "JSON" ]
