@@ -1,5 +1,5 @@
 ---
 title: "Bundles"
+description: "Information bundles!"
 ---
 
-This section contains articles about particular topics I am interested in.

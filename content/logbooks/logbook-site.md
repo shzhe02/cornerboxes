@@ -1,7 +1,7 @@
 ---
-title: "Logbook - How this site came to be"
+title: "Mini Logbook - Previous Site Attempts"
 date: 2023-06-22T22:14:27+03:00
-draft: true
+draft: false
 ---
 If you haven't already checked out the [about site page](/about/about-site), please read it first for some context.
 
@@ -35,4 +35,12 @@ It didn't help that back then, I also struggled really badly with getting my tho
 
 Link to [Hugo](https://gohugo.io).
 
-I caught wind of GitHub Pages from a classmate of mine, which prompted me to look into static site generators further. It is basically perfect security-wise, since static sites means that the entire site is just basic HTML with some very light JavaScript. In other words, there is no database behinds the scenes that could be hacked.
+I caught wind of GitHub Pages from a classmate of mine, which prompted me to look into static site generators further. It is basically perfect security-wise, since static sites means that the entire site is just basic HTML with some very light JavaScript. In other words, there is no database behind the scenes that could be hacked.
+
+Since all the content pages are written in Markdown, I found out that I could also use Obsidian to edit the files, making my writing experience significantly better.
+
+On the hosting end, I decided to use Cloudflare Pages over GitHub Pages due to Cloudflare Pages' more generous limits.
+
+As for the theme, I initially tried to use the [Stack theme](https://github.com/CaiJimmy/hugo-theme-stack), but I found it quite difficult to configure and understand. Later, I tried the [PaperMod theme](https://github.com/adityatelange/hugo-PaperMod), but the complete lack of sidebars (table of contents could only be placed at the top of each page) made it feel too restrictive in my opinion. I eventually settled on a fork of the PaperMod theme, [PaperModX](https://github.com/reorx/hugo-PaperModX), which checked all my boxes. To add a little personal touch, I switched up the color scheme to the Nord theme, hence my personal fork, [PaperModX-nordish](https://github.com/shzhe02/PaperModX-nordish).
+
+And that's where we are now!
