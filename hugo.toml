@@ -17,6 +17,7 @@ TocSide = 'right'
 mainSections = ["bundles", "logbooks"]
 author = "Harvey Lim"
 ShowAuthor = true
+comments = true
 
 [params.homeInfoParams]
 Title = 'Welcome 👋'

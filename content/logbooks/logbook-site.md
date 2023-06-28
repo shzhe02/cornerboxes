@@ -43,4 +43,6 @@ On the hosting end, I decided to use Cloudflare Pages over GitHub Pages due to C
 
 As for the theme, I initially tried to use the [Stack theme](https://github.com/CaiJimmy/hugo-theme-stack), but I found it quite difficult to configure and understand. Later, I tried the [PaperMod theme](https://github.com/adityatelange/hugo-PaperMod), but the complete lack of sidebars (table of contents could only be placed at the top of each page) made it feel too restrictive in my opinion. I eventually settled on a fork of the PaperMod theme, [PaperModX](https://github.com/reorx/hugo-PaperModX), which checked all my boxes. To add a little personal touch, I switched up the color scheme to the Nord theme, hence my personal fork, [PaperModX-nordish](https://github.com/shzhe02/PaperModX-nordish).
 
+As for the comment system, I'm using [Utterances](https://utteranc.es/), which uses GitHub issues to store the comments, allowing me to get away with not using a VPS. However, I hope to use [Remark42](https://remark42.com/) eventually, as it allows for anonymous comments. But until I have more reasons to get an internet-connected VPS, I will be relying on Utterances.
+
 And that's where we are now!
