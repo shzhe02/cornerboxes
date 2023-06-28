@@ -3,7 +3,6 @@ languageCode = 'en-us'
 title = "rv's corner"
 theme = 'PaperModX'
 paginate = 10
-buildDrafts = true
 
 [params]
 env = "production"
