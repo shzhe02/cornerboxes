@@ -1,5 +1,5 @@
 ---
-title: "Mini Logbook - Previous Site Attempts"
+title: "Previous Site Attempts"
 date: 2023-06-22T22:14:27+03:00
 draft: false
 ---
