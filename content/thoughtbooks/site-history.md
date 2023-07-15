@@ -27,7 +27,7 @@ A couple months later, I watched a [video](https://youtu.be/acBJsjCqgtM) from Al
 
 After setting up an instance of Ghost myself and starting to write content, I discovered a few things that really bugged me:
 1. There was no way to implement 2FA, and I really did not want my admin account to be secured solely by a password.
-2. The page builder felt quite weird. it was not Markdown, but more like a locked-down version of Notion's editor. This annoyed be as it did not really offer the features I wanted for easily getting my ideas in text. There was a markdown block available, but writing in markdown in another editor just felt weird.
+2. The page builder felt quite weird. it was not Markdown, but more like a locked-down version of Notion's editor. This annoyed me as it did not really offer the features I wanted for easily getting my ideas in text. There was a markdown block available, but writing in markdown in another editor just felt weird.
 
 It didn't help that back then, I also struggled really badly with getting my thoughts and ideas down in text, meaning that when it came to writing content, I always just blanked out.
 
