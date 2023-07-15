@@ -14,7 +14,7 @@ ShowShareButtons = true
 ShowReadingTime = true
 ShowPostNavLinks = true
 TocSide = 'right'
-mainSections = ["bundles", "logbooks"]
+mainSections = ["bundles", "thoughtbooks", "misc"]
 author = "Harvey Lim"
 ShowAuthor = true
 comments = true
@@ -27,14 +27,6 @@ Content = """Hi! I'm Harvey Lim. Here's a quick introduction of me:
 - I enjoy prototyping and tinkering with 3D printers.
 
 This website is a small blog of sorts, with posts revolving around my interests. I hope you enjoy reading what I have created!
-
-For now, there are 3 sections:
-- [Bundles](/bundles)
-    - Bundles are essentially information packets which I create to share the experience I have with a particular hobby or interest of mine.
-- [Logbooks](/logbooks)
-    - Logbooks are where I write log entries detailing a process I am currently undertaking.
-- [About](/about)
-    - This section includes more information about me and this site.
 """
 
 [[params.socialIcons]]
@@ -55,9 +47,14 @@ url = "/bundles/"
 weight = 2
 
 [[languages.en.menu.main]]
-name = "Logbooks"
-url = "/logbooks/"
+name = "Thoughtbooks"
+url = "/thoughtbooks/"
 weight = 3
+
+[[languages.en.menu.main]]
+name = "Misc"
+url = "/misc/"
+weight = 4
 
 [[languages.en.menu.main]]
 name = "Archive"
