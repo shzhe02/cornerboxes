@@ -1,4 +1,4 @@
-baseURL = 'http://shzhe02.com/'
+baseURL = 'https://shzhe02.com/'
 languageCode = 'en-us'
 title = "rv's corner"
 theme = 'PaperModX'
@@ -14,7 +14,7 @@ ShowShareButtons = true
 ShowReadingTime = true
 ShowPostNavLinks = true
 TocSide = 'right'
-mainSections = ["bundles", "thoughtbooks", "misc"]
+mainSections = ["projects", "thoughtbooks", "misc"]
 author = "Harvey Lim"
 ShowAuthor = true
 comments = true
@@ -44,8 +44,8 @@ languageName = "English"
 weight = 1
 
 [[languages.en.menu.main]]
-name = "Bundles"
-url = "/bundles/"
+name = "Projects"
+url = "/projects/"
 weight = 2
 
 [[languages.en.menu.main]]
