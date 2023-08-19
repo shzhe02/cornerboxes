@@ -14,10 +14,11 @@ ShowShareButtons = true
 ShowReadingTime = true
 ShowPostNavLinks = true
 TocSide = 'right'
-mainSections = ["projects", "thoughtbooks", "misc"]
+# mainSections = ["projects", "thoughtbooks", "misc"]
 author = "Harvey Lim"
 ShowAuthor = true
 comments = true
+EnableImageZoom = true
 
 [params.homeInfoParams]
 Title = 'Welcome 👋'
