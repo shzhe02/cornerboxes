@@ -21,7 +21,7 @@ So, my solution was to scrap using conventional pro-micro-sized boards and use t
 However, mounting it like an SMD component comes with more challenges. The main one being that the XIAO microcontroller has SMD pads on the back for, among other things, the battery inputs. This makes things difficult since I can't simply solder the microcontroller to the PCB like a normal SMD component unless I want to cut off my access to the battery pads. My solution? Mount the microcontroller right-side-up, but UNDER the keyboard PCB, then cut away the part of the PCB between the pads. This is possible since the pads/holes on the microcontroller are on both sides of the microcontroller.
 
 Top view:
-![Top view](./1.webp)
+![Top view](1.webp)
 
 Bottom view:
 ![Bottom view](2.webp)
