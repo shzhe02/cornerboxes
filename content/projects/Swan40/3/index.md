@@ -64,7 +64,7 @@ Unfortunately, as BLE dongles fro ZMK are still quite obscure, a tutorial doesn'
 
 At this point, I had successfully gotten the ZMK GitHub Action to export the firmware for the halves and the dongle. This took about 5 hours and... well...
 
-![[projects/Swan40/3/1.webp]]
+![failures](projects/Swan40/3/1.webp)
 
 Fun.
 
