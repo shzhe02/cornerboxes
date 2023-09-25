@@ -1,4 +1,4 @@
 ---
-title: "Project TTMS"
-description: "Project Time/Task Management System (The name is a Work-In-Progress)"
+title: Project TTMS
+description: Time/Task Management System (placeholder name)
 ---
