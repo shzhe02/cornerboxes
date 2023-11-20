@@ -1,6 +1,6 @@
-baseURL = 'https://shzhe02.com/'
+baseURL = 'https://cornerboxes.com/'
 languageCode = 'en-us'
-title = "rv's corner"
+title = "cornerboxes"
 theme = 'PaperModX'
 paginate = 10
 
