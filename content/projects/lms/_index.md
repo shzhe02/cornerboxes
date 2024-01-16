@@ -1,4 +1,4 @@
 +++
-title = Project LMS
-description = Life Management System (placeholder name)
+title = "Project LMS"
+description = "Life Management System (placeholder name)"
 +++
