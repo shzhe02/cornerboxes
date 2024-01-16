@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>About on cornerboxes</title>
+    <link>https://cornerboxes.com/about/</link>
+    <description>Recent content in About on cornerboxes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 23 Jun 2023 03:11:37 +0300</lastBuildDate><atom:link href="https://cornerboxes.com/about/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>FAQs</title>
+      <link>https://cornerboxes.com/about/faqs/</link>
+      <pubDate>Fri, 23 Jun 2023 03:11:37 +0300</pubDate>
+      
+      <guid>https://cornerboxes.com/about/faqs/</guid>
+      <description> Q: Who&amp;rsquo;s &amp;ldquo;rv&amp;rdquo;? A: &amp;ldquo;rv&amp;rdquo; when spoken letter-by-letter would be &amp;ldquo;ar-vee&amp;rdquo;, which sounds like my name, Harvey. </description>
+      <content:encoded><![CDATA[<ul>
+<li>Q: Who&rsquo;s &ldquo;rv&rdquo;?
+<ul>
+<li>A: &ldquo;rv&rdquo; when spoken letter-by-letter would be &ldquo;ar-vee&rdquo;, which sounds like my name, Harvey.</li>
+</ul>
+</li>
+</ul>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>About Site</title>
+      <link>https://cornerboxes.com/about/about-site/</link>
+      <pubDate>Thu, 22 Jun 2023 22:03:59 +0300</pubDate>
+      
+      <guid>https://cornerboxes.com/about/about-site/</guid>
+      <description>The main purposes of this site are:
+to allow me to create and share content easily. to be quick and easy to use for a reader. After trying numerous other website-creation tools, I eventually settled on using the Hugo static site generator along with the PaperModX theme which I forked to apply the Nord color scheme.
+All the content pages are written in the Markdown format, which then allows me to use Obsidian as my text editor of choice, which works fantastic!</description>
+      <content:encoded><![CDATA[<p>The main purposes of this site are:</p>
+<ul>
+<li>to allow me to create and share content easily.</li>
+<li>to be quick and easy to use for a reader.</li>
+</ul>
+<p>After trying numerous other website-creation tools, I eventually settled on using the <a href="https://gohugo.io">Hugo static site generator</a> along with the <a href="https://reorx.github.io/hugo-PaperModX/">PaperModX theme</a> which I <a href="https://github.com/shzhe02/PaperModX-nordish">forked</a> to apply the <a href="https://www.nordtheme.com/">Nord color scheme</a>.</p>
+<p>All the content pages are written in the Markdown format, which then allows me to use <a href="https://obsidian.md/">Obsidian</a> as my text editor of choice, which works fantastic! I only needed to pull some easy gitignore magic to exclude the Obsidian-related files from the content of the website.</p>
+<p>If you want to know more about my previous attempts at creating this site and why I discarded them, have a look <a href="/thoughtbooks/site-history">here</a>!</p>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>About Me</title>
+      <link>https://cornerboxes.com/about/about-me/</link>
+      <pubDate>Thu, 22 Jun 2023 21:28:18 +0300</pubDate>
+      
+      <guid>https://cornerboxes.com/about/about-me/</guid>
+      <description>TL;DR Hello there, my name is Harvey Lim (21M, as of August 2023).
+I am a Malaysian-born Chinese person who has gone through education in Finland. However, I only speak native-level English along with conversational-level Chinese.
+Currently, I am a 3rd-year bachelors student at Aalto University, majoring in Digital Systems and Design and minoring in Computer Science.
+More If I were to describe myself, I&amp;rsquo;d be
+Extra Bits There are actually several variations of my name:</description>
+      <content:encoded><![CDATA[<h1 id="tldr">TL;DR</h1>
+<p>Hello there, my name is Harvey Lim (21M, as of August 2023).</p>
+<p>I am a Malaysian-born Chinese person who has gone through education in Finland. However, I only speak native-level English along with conversational-level Chinese.</p>
+<p>Currently, I am a 3rd-year bachelors student at Aalto University, majoring in Digital Systems and Design and minoring in Computer Science.</p>
+<h1 id="more">More</h1>
+<p>If I were to describe myself, I&rsquo;d be</p>
+<h1 id="extra-bits">Extra Bits</h1>
+<p>There are actually several variations of my name:</p>
+<ul>
+<li>Harvey Lim Shuang Zhe
+<ul>
+<li>This is my original full name.</li>
+</ul>
+</li>
+<li>Harvey Shuang Zhe Lim
+<ul>
+<li>In western countries, I have to put my surname (Lim) at the end of my name, causing it to be reorganized a bit.</li>
+</ul>
+</li>
+<li>林双喆 (lín shuāng zhé)
+<ul>
+<li>My Chinese name, which I use rarely.</li>
+</ul>
+</li>
+<li>双喆 (shuāng zhé)
+<ul>
+<li>The nickname version of my Chinese name.</li>
+</ul>
+</li>
+</ul>
+<p>In a nutshell, calling me &ldquo;Harvey&rdquo; will do just fine :)</p>
+]]></content:encoded>
+    </item>
+    
+  </channel>
+</rss>

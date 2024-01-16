@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Project LMS on cornerboxes</title>
+    <link>https://cornerboxes.com/projects/lms/</link>
+    <description>Recent content in Project LMS on cornerboxes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 08 Oct 2023 14:14:23 +0300</lastBuildDate><atom:link href="https://cornerboxes.com/projects/lms/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[Part 2] Technical Implementation</title>
+      <link>https://cornerboxes.com/projects/lms/2/</link>
+      <pubDate>Sun, 08 Oct 2023 14:14:23 +0300</pubDate>
+      
+      <guid>https://cornerboxes.com/projects/lms/2/</guid>
+      <description>To recap, the requirements I set for this systems are the following:
+Be digital. Support multiple devices and syncing. Allow the user to remain in full control of their data. Be easy to set up. Being Digital In order to tackle requirements 2 and 3, requirement 1 will have to be fulfilled. In other words, the system will have to be bundled into an app. As most people already have their phones on them at all times, there is no more convenient option than just using an app and not needing to bring any additional equipment with oneself on the go.</description>
+      <content:encoded><![CDATA[<p>To recap, the requirements I set for this systems are the following:</p>
+<ol>
+<li>Be digital.</li>
+<li>Support multiple devices and syncing.</li>
+<li>Allow the user to remain in full control of their data.</li>
+<li>Be easy to set up.</li>
+</ol>
+<h1 id="being-digital">Being Digital</h1>
+<p>In order to tackle requirements 2 and 3, requirement 1 will have to be fulfilled. In other words, the system will have to be bundled into an app. As most people already have their phones on them at all times, there is no more convenient option than just using an app and not needing to bring any additional equipment with oneself on the go.</p>
+<h1 id="multi-device-support">Multi-device Support</h1>
+<p>For the app to have multi-device support (first part of requirement 2), I <em>could</em> create 3-4 different native implementations for each type of device, but that would be far too much work. Instead, using a cross-platform framework of some kind would be more ideal. After some research, my options are the following:</p>
+<ul>
+<li>Create a web app using a JavaScript framework (React, Vue) then turn it into mobile app using Electron or Capacitor.</li>
+<li>Use a cross-platform framework like Flutter or React Native.</li>
+</ul>
+<p>Since I&rsquo;ve previously built applications with Flutter before, I will be using it as my framework of choice. However, my previous applications were quite simple in comparison with what I&rsquo;m trying to achieve with this project, therefore I will be making several sub-projects to get the hang of it in the process.</p>
+<p>However, going with Flutter has a downside that may affect  the third requirement: telemetry. As Google is the main creator of Flutter, there may be some hidden telemetry baked into Flutter, causing the users&rsquo; data to be slightly compromised. Despite this, I believe I will still have to stick with Flutter, as using any alternative approach would slow down the development process. I will however manually disable as much telemetry as I can.</p>
+<h1 id="syncing">Syncing</h1>
+<p>As for the second part of requirement 2, that is, data syncing, there are two options:</p>
+<ol>
+<li>Using a peer-to-peer synchronization system like <a href="https://syncthing.net/">Syncthing</a>.</li>
+<li>Using a cloud-hosted server to host a database, which is where the data will be stored.</li>
+</ol>
+<p>Here are some pros and cons of each.</p>
+<h2 id="p2p-peer-to-peer-synchronization-system">P2P (Peer-to-Peer) synchronization system</h2>
+<p>Pros:</p>
+<ul>
+<li>No server required = No extra costs</li>
+<li>No authentication required.
+<ul>
+<li>As you have to manually connect your devices to one another directly, there is nearly no risk of someone stealing your data as all of it is stored solely on devices you own, and none of them require access to the internet to synchronize.</li>
+</ul>
+</li>
+</ul>
+<p>Cons:</p>
+<ul>
+<li>Connecting each device you have to each other will be tedious for the setup process.</li>
+<li>Implementation will be quite difficult.</li>
+<li>Conflict resolving may be common = worse ease of use
+<ul>
+<li>For example, you have two devices which are unable to sync with each other, but edit the same file on each of them. Then, sync the two devices. The two devices will have two files that were edited since they were last connected and do not know which one is the correct file.</li>
+</ul>
+</li>
+<li>No redundancy.
+<ul>
+<li>For example, you left the house for a work trip with just your phone, but a week into your trip, your phone&rsquo;s storage gets corrupted. All the data you entered during the first week of the trip is now permanently gone.</li>
+</ul>
+</li>
+</ul>
+<h2 id="server-system">Server system</h2>
+<p>Pros:</p>
+<ul>
+<li>Redundancy.
+<ul>
+<li>As all the data on any one device is kept in sync with the server, if the device fails, fetching the data from the server should restore what was lost.</li>
+</ul>
+</li>
+<li>Simpler device-side setup.
+<ul>
+<li>Ideally, it will just be putting in the IP address (or domain name) of the server and authenticating yourself, and everything should be synced.</li>
+</ul>
+</li>
+<li>Implementation may be simple.
+<ul>
+<li>There are several server database solutions available already with good documentation, and some even have specific guides for use with Flutter.</li>
+</ul>
+</li>
+<li>Flexibility.
+<ul>
+<li>With a server, additional features become feasible. For example, multi-user support, which I plan to do as implementing authentication is already required for this implementation.</li>
+</ul>
+</li>
+</ul>
+<p>Cons:</p>
+<ul>
+<li>Cost.
+<ul>
+<li>An external server will be required. If using a low-cost VPS (Virtual Private Server), the costs may be about 4-5 euros a month.</li>
+</ul>
+</li>
+<li>Potentially complex server-side setup.
+<ul>
+<li>There will likely be additional complexity from needing to set up the server securely, as the server is accessible by anyone on the internet.</li>
+</ul>
+</li>
+</ul>
+<h2 id="verdict">Verdict</h2>
+<p>Based on the list above, I have decided to use a server-based setup, with the main convincing points being redundancy and flexibility. I feel like I can justify the cons with the following:</p>
+<ul>
+<li>Cost
+<ul>
+<li>Many current free digital productivity systems have catches to prevent abuse of their systems, and they make users pay for either higher limits or additional functionalities (like syncing). The same amount of money in their paid tiers tends to be enough to afford a low-cost VPS.</li>
+</ul>
+</li>
+<li>Potentially complex server-side setup.
+<ul>
+<li>As this system is intended for my personal use, I personally don&rsquo;t mind the additional tinkering to get things up and running. However, if there is a future demand for it, I believe creating a script for a very quick setup experience on the server could be achievable. For example, something like the <a href="https://github.com/pterodactyl-installer/pterodactyl-installer">Pterodactyl setup script</a>, which drastically simplifies the setup for Pterodactyl.</li>
+</ul>
+</li>
+</ul>
+<h1 id="server-database">Server Database</h1>
+<p>As using a server as a database is actually fairly common, there are ready-made solutions that are open-source. I previously hinted at this previously:</p>
+<blockquote>
+<p>There are several server database solutions available already with good documentation, and some even have specific guides for use with Flutter.</p>
+</blockquote>
+<p>Some may have heard of Google&rsquo;s Firebase, which I have used before. However, there are actually a fair amount of alternatives, and given Google&rsquo;s track record with telemetry, I think it&rsquo;d be wise to use something else.</p>
+<p>Here&rsquo;s what I found:</p>
+<ul>
+<li><a href="https://pocketbase.io/">Pocketbase</a>
+<ul>
+<li>Pros:
+<ul>
+<li>One file, very simple.</li>
+</ul>
+</li>
+<li>Cons:
+<ul>
+<li>Uses sqlite in the background, may not be the most performant.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="https://supabase.com/">Supabase</a>
+<ul>
+<li>Pros:
+<ul>
+<li>Scales up very well.</li>
+</ul>
+</li>
+<li>Cons:
+<ul>
+<li>More complex.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>I decided to try out Pocketbase because:</p>
+<ul>
+<li>Simple is best. I want to focus more of my time on creating good user-side applications and less time debugging the server-related code.</li>
+<li>This system is intended for a very small group of people to use (1 person ideally, maybe 5-10 people max), which means the scalability of Supabase will likely not be very useful.</li>
+<li>After checking out some <a href="https://github.com/pocketbase/benchmarks/blob/master/results/hetzner_cax11_cgo.md">benchmarks for Pocketbase</a>, it seems that creating thousands of posts will only take a few seconds, which is more than any individual (or small group of individuals) will need.</li>
+</ul>
+<h1 id="tldr">TL;DR</h1>
+<ul>
+<li>App framework: Flutter</li>
+<li>Multi-device support implementation: Server
+<ul>
+<li>Server database (backend): Pocketbase</li>
+</ul>
+</li>
+</ul>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>[Part 1] Origin</title>
+      <link>https://cornerboxes.com/projects/lms/1/</link>
+      <pubDate>Mon, 25 Sep 2023 14:21:51 +0300</pubDate>
+      
+      <guid>https://cornerboxes.com/projects/lms/1/</guid>
+      <description>Background I have rather terrible self-organizational skills. For the last 4-5 years, I&amp;rsquo;ve essentially been just winging it. To meet the deadlines and requirements given to me by life, I&amp;rsquo;ve been using solely a calendar (for tracking very important events) and sheer will. In a nutshell, I&amp;rsquo;ve just been controlled by the demands of life. Tasks are usually only done when the deadline is looming over me, and I have almost no hobbies.</description>
+      <content:encoded><![CDATA[<h1 id="background">Background</h1>
+<p>I have rather terrible self-organizational skills. For the last 4-5 years, I&rsquo;ve essentially been just winging it. To meet the deadlines and requirements given to me by life, I&rsquo;ve been using solely a calendar (for tracking very important events) and sheer will. In a nutshell, I&rsquo;ve just been controlled by the demands of life. Tasks are usually only done when the deadline is looming over me, and I have almost no hobbies. I do however manage to rapidly complete projects if a sudden wave of motivation hits me, but if hardships hit or it takes longer than expected, the project gets abandoned. And yes, having a heavy procrastination problem is a given.</p>
+<p>However, there&rsquo;s a problem (if it wasn&rsquo;t glaringly obvious already). I&rsquo;m already in my 3rd year of university, and I probably should get my life together.</p>
+<h1 id="brainstorming">Brainstorming</h1>
+<p>To start, I began asking myself the question: &ldquo;How does one get organized?&rdquo;, which leads to &ldquo;What needs to be organized?&rdquo;.</p>
+<h2 id="organize-what">Organize what?</h2>
+<p>First, the obvious one: the baseline requirement of daily life is to be able to <strong>keep track of important appointments, tasks/assignments, and deadlines</strong>. For any individual, this is a fundamental need as there are usually direct consequences to not showing up on time to an important event or not completing something important in time.</p>
+<p>The second thing that needs organization is <strong>knowledge</strong>. In modern times, I believe that it&rsquo;s almost a necessity to keep gaining more knowledge. Knowledge, and in turn, skills, are very important for the constantly-evolving world where being left behind might lead to life instability.</p>
+<p>The third thing that, in my opinion, needs to be managed, is habits. In life, some things aren&rsquo;t under our control, and sometimes those things actually affect us. When it comes to things that have a mental effect on us, I think it&rsquo;s very important to ground ourselves mentally such that we can take care of ourselves despite the happenings of life. However, needing to intentionally pay attention to everything we need to do to take care of ourselves is very mentally demanding. Luckily, we humans have a nice built-in function: habits. By offloading these self-care tasks to our subconscious, it lets us save our mental energy for more cognitively demanding tasks in life that don&rsquo;t happen every day.</p>
+<p>Having to manage habits might seem excessive, but I think it&rsquo;s very important in modern days also because of social media and similar digital applications that are designed to steal your attention away. They reinforce bad habits (like checking your social media right after dismissing your alarm) without us even noticing. Therefore, I believe a habit management system to <strong>intentionally</strong> build on good habits and break bad habits is very important.</p>
+<h1 id="back-to-this-project">Back to this project</h1>
+<p>This project aims to help manage the three things mentioned above. If those things are managed, life is managed. Therefore, this project is called the Life Management System (LMS).</p>
+<p>Similarly, the three sub-components are called:</p>
+<ul>
+<li>Time/Task Management System (TTMS)</li>
+<li>Information Management System (IMS)</li>
+<li>Habit Management System (HMS)</li>
+</ul>
+<pre class="mermaid">flowchart LR
+	subgraph LMS
+	direction LR
+	TTMS --- IMS
+	IMS --- HMS
+	HMS --- TTMS
+	end
+</pre>
+<p>(I would&rsquo;ve liked to call IMS the &ldquo;Knowledge Management System,&rdquo; but having the abbreviation be &ldquo;KMS&rdquo; doesn&rsquo;t really sit well with me&hellip;)</p>
+<p>Each sub-component will be its own project, and more details about how each thing is managed will be explained much more thoroughly in their corresponding projects.</p>
+<h2 id="core-requirements">Core Requirements</h2>
+<p>Although LMS may be considered solely the sum of its three sub-components, I want the whole system to have a heavy emphasis on convenience. After all, I don&rsquo;t want rely on or use something that is inconvenient. Therefore, all components in this system need to be digital.</p>
+<p>Extending on that thought, the system should also be usable on several devices, and the data should be synced across all devices. This is because most people already have multiple devices, and it would be most convenient if the system (especially the TTMS and IMS) can be accessed from any one of them.</p>
+<p>Additionally, as most people have a computer and a phone, the roles of the devices should be slightly different. A computer allows for more comfortable input, while the mobile device&rsquo;s small screen restricts what can be done on it. Therefore, the computer interface should prioritize making data input as comfortable as possible, while the mobile interface should prioritize data referencing (e.g., checking events is prioritized over adding events).</p>
+<p>Furthermore, as this system will be dealing with quite a bit of important data, it is very important that the data remains fully under the user&rsquo;s control.</p>
+<p>Finally, as convenience is important not only for daily usage but also the setup process, setting up the system should be simple and straightforward.</p>
+<p>TL;DR, The system should:</p>
+<ul>
+<li>be digital.</li>
+<li>support multiple devices and syncing.</li>
+<li>allow the user to remain in full control of their data.</li>
+<li>be easy to set up.</li>
+</ul>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Project TTMS</title>
+      <link>https://cornerboxes.com/projects/lms/ttms/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cornerboxes.com/projects/lms/ttms/</guid>
+      <description>Time/Task Management System (placeholder name)</description>
+      <content:encoded><![CDATA[<p>Before reading this section, I recommend reading through parts 1 &amp; 2 of project LMS to understand why this subproject exists.</p>
+]]></content:encoded>
+    </item>
+    
+  </channel>
+</rss>

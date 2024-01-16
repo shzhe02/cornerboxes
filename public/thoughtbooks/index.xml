@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Thoughtbooks on cornerboxes</title>
+    <link>https://cornerboxes.com/thoughtbooks/</link>
+    <description>Recent content in Thoughtbooks on cornerboxes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 17 Aug 2023 17:04:41 +0300</lastBuildDate><atom:link href="https://cornerboxes.com/thoughtbooks/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Behind &#34;A Guide to 3D Printing&#34;</title>
+      <link>https://cornerboxes.com/thoughtbooks/3dp/</link>
+      <pubDate>Thu, 17 Aug 2023 17:04:41 +0300</pubDate>
+      
+      <guid>https://cornerboxes.com/thoughtbooks/3dp/</guid>
+      <description>All the behind-the-scenes work of the &amp;#34;A Guide to 3D Printing&amp;#34; bundle.</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Self-benchmarking</title>
+      <link>https://cornerboxes.com/thoughtbooks/self-benchmarking/</link>
+      <pubDate>Mon, 24 Jul 2023 14:24:56 +0300</pubDate>
+      
+      <guid>https://cornerboxes.com/thoughtbooks/self-benchmarking/</guid>
+      <description>A complementary thoughtbook to the TTMS Project</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Previous Site Attempts</title>
+      <link>https://cornerboxes.com/thoughtbooks/site-history/</link>
+      <pubDate>Thu, 22 Jun 2023 22:14:27 +0300</pubDate>
+      
+      <guid>https://cornerboxes.com/thoughtbooks/site-history/</guid>
+      <description>If you haven&amp;rsquo;t already checked out the about site page, please read it first for some context.
+Attempt 1: Wordpress Link to Wordpress.
+When one usually looks to create a website as a complete newbie to the web development space, the first results usually tend to be either website services like Squarespace or Wix, or Wordpress (the open source web content management system, not the hosting service). Squarespace and Wix felt a little bit restrictive in terms of what type of content I could create with it, which made me attempt to work with Wordpress.</description>
+      <content:encoded><![CDATA[<p>If you haven&rsquo;t already checked out the <a href="/about/about-site">about site page</a>, please read it first for some context.</p>
+<h2 id="attempt-1-wordpress">Attempt 1: Wordpress</h2>
+<p>Link to <a href="https://wordpress.org/">Wordpress</a>.</p>
+<p>When one usually looks to create a website as a complete newbie to the web development space, the first results usually tend to be either website services like Squarespace or Wix, or Wordpress (the open source web content management system, not the hosting service). Squarespace and Wix felt a little bit restrictive in terms of what type of content I could create with it, which made me attempt to work with Wordpress.</p>
+<p>I eventually gave up on Wordpress due to the following reasons:</p>
+<ol>
+<li>I spent way too much time configuring the site, since there are simply an overwhelming number of plugins and options.</li>
+<li>Wordpress itself isn&rsquo;t very secure, and due to most websites being built on Wordpress, there are many malicious bots out there trying to crack the admin account to gain access to the site. I ended up spending days researching and implementing all sorts of security measures such as 2FA, relocating the admin login URL, lots of hardening plugins, and even setting up the Wordpress SMTP mailing service in order to get emails whenever suspicious activity was spotted. Suffice to say, I felt like I was living in fear of my site being breached, despite there not being any content on the site.</li>
+<li>When I actually got around to building the website, I discovered the default page builder offered by Wordpress to be very restrictive, and when I went to look for alternative options, I found out that some types of content blocks were simply paywalled. It then became a game of &ldquo;finding the best page builder&rdquo;, which eventually led to some more analysis paralysis on my end.</li>
+<li>I eventually realized that Wordpress is sorely overkill for the purpose I needed it to serve. I just wanted to create some content, yet this platform is geared up for creating e-commerce websites or other fancy applications.</li>
+</ol>
+<p>After going through the endless cases of analysis paralysis from all the options Wordpress had to offer, it was safe to say that my motivation was completely drained. Until&hellip;</p>
+<h2 id="attempt-2-ghost">Attempt 2: Ghost</h2>
+<p>Link to <a href="https://ghost.org/">Ghost</a>.</p>
+<p>A couple months later, I watched a <a href="https://youtu.be/acBJsjCqgtM">video</a> from Ali Abdaal about how to build a website, where one of his recommendations was Ghost. At first glance, it appeared to be a more batteries-included version of Wordpress, which was great to hear as it removed all the hardships I had with Wordpress.</p>
+<p>After setting up an instance of Ghost myself and starting to write content, I discovered a few things that really bugged me:</p>
+<ol>
+<li>There was no way to implement 2FA, and I really did not want my admin account to be secured solely by a password.</li>
+<li>The page builder felt quite weird. it was not Markdown, but more like a locked-down version of Notion&rsquo;s editor. This annoyed me as it did not really offer the features I wanted for easily getting my ideas in text. There was a markdown block available, but writing in markdown in another editor just felt weird.</li>
+</ol>
+<p>It didn&rsquo;t help that back then, I also struggled really badly with getting my thoughts and ideas down in text, meaning that when it came to writing content, I always just blanked out.</p>
+<h2 id="attempt-3-hugo">Attempt 3: Hugo</h2>
+<p>Link to <a href="https://gohugo.io">Hugo</a>.</p>
+<p>I caught wind of GitHub Pages from a classmate of mine, which prompted me to look into static site generators further. It is basically perfect security-wise, since static sites means that the entire site is just basic HTML with some very light JavaScript. In other words, there is no database behind the scenes that could be hacked.</p>
+<p>Since all the content pages are written in Markdown, I found out that I could also use Obsidian to edit the files, making my writing experience significantly better.</p>
+<p>On the hosting end, I decided to use Cloudflare Pages over GitHub Pages due to Cloudflare Pages&rsquo; more generous limits.</p>
+<p>As for the theme, I initially tried to use the <a href="https://github.com/CaiJimmy/hugo-theme-stack">Stack theme</a>, but I found it quite difficult to configure and understand. Later, I tried the <a href="https://github.com/adityatelange/hugo-PaperMod">PaperMod theme</a>, but the complete lack of sidebars (table of contents could only be placed at the top of each page) made it feel too restrictive in my opinion. I eventually settled on a fork of the PaperMod theme, <a href="https://github.com/reorx/hugo-PaperModX">PaperModX</a>, which checked all my boxes. To add a little personal touch, I switched up the color scheme to the Nord theme, hence my personal fork, <a href="https://github.com/shzhe02/PaperModX-nordish">PaperModX-nordish</a>.</p>
+<p>As for the comment system, I&rsquo;m using <a href="https://utteranc.es/">Utterances</a>, which uses GitHub issues to store the comments, allowing me to get away with not using a VPS. However, I hope to use <a href="https://remark42.com/">Remark42</a> eventually, as it allows for anonymous comments. But until I have more reasons to get an internet-connected VPS, I will be relying on Utterances.</p>
+<p>And that&rsquo;s where we are now!</p>
+]]></content:encoded>
+    </item>
+    
+  </channel>
+</rss>

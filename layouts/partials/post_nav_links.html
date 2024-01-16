@@ -1,6 +1,7 @@
 {{/* get pages from the current page's section */}}
-{{- $pages := where site.RegularPages "CurrentSection.Path" .CurrentSection.Path}}
+{{ $pages := where site.RegularPages "CurrentSection.RelPermalink" .CurrentSection.RelPermalink}}
 {{ $pages := $pages.Reverse }}
+
 
 {{- if and (gt (len $pages) 1) (in $pages . ) }}
 <nav class="paginav">

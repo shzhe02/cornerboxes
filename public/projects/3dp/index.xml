@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>A practical guide to 3D printing on cornerboxes</title>
+    <link>https://cornerboxes.com/projects/3dp/</link>
+    <description>Recent content in A practical guide to 3D printing on cornerboxes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 18 Aug 2023 18:40:58 +0300</lastBuildDate><atom:link href="https://cornerboxes.com/projects/3dp/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[Module 2] Optimizations</title>
+      <link>https://cornerboxes.com/projects/3dp/2/</link>
+      <pubDate>Fri, 18 Aug 2023 18:40:58 +0300</pubDate>
+      
+      <guid>https://cornerboxes.com/projects/3dp/2/</guid>
+      <description>In this module, we will be taking our first steps towards optimizing the 3D printing process.
+Why Optimize? Yes, the default settings in the slicers mentioned in the last module should work for most cases, but the issue is that they are designed to be a catch-all solution. In simpler terms, they are designed to be able to avoid</description>
+      <content:encoded><![CDATA[<p>In this module, we will be taking our first steps towards optimizing the 3D printing process.</p>
+<h1 id="why-optimize">Why Optimize?</h1>
+<p>Yes, the default settings in the slicers mentioned in the last module should work for most cases, but the issue is that they are designed to be a catch-all solution. In simpler terms, they are designed to be able to avoid</p>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>[Module 1] The Basics</title>
+      <link>https://cornerboxes.com/projects/3dp/1/</link>
+      <pubDate>Thu, 17 Aug 2023 15:04:41 +0300</pubDate>
+      
+      <guid>https://cornerboxes.com/projects/3dp/1/</guid>
+      <description>NOTE: This bundle will be focusing on FDM/FFF (Fused Deposition Modelling/Fused Filament Fabrication) 3D printing. In layman terms, the type of 3D printing where plastic filament is involved.
+Prerequisites To follow this section, I suggest having the following:
+A functional 3D printer PLA filament A computer Objective After reading this article, you should be able to:
+Find 3D models from online sources Use a slicer to turn a 3D model into gcode Successfully print a model Understand the general 3D printing process TL;DR: You should have the bare minimum of understanding needed to print a 3D model.</description>
+      <content:encoded><![CDATA[<p><strong>NOTE: This bundle will be focusing on FDM/FFF (Fused Deposition Modelling/Fused Filament Fabrication) 3D printing. In layman terms, the type of 3D printing where plastic filament is involved.</strong></p>
+<h1 id="prerequisites">Prerequisites</h1>
+<p>To follow this section, I suggest having the following:</p>
+<ul>
+<li>A functional 3D printer</li>
+<li>PLA filament</li>
+<li>A computer</li>
+</ul>
+<h1 id="objective">Objective</h1>
+<p>After reading this article, you should be able to:</p>
+<ul>
+<li>Find 3D models from online sources</li>
+<li>Use a slicer to turn a 3D model into gcode</li>
+<li>Successfully print a model</li>
+<li>Understand the general 3D printing process</li>
+</ul>
+<p>TL;DR: You should have the bare minimum of understanding needed to print a 3D model.</p>
+<h1 id="the-process">The Process</h1>
+<p>The 3D printing process roughly has the following steps:</p>
+<pre class="mermaid">flowchart TD
+	subgraph A["Computer"]
+		1("1. Obtaining the part design")
+		2("2. Slicing the 3D model of the part")
+		1 -- ".stl/.3mf file" --> 2
+	end
+	subgraph B["Printer"]
+		3("3. Printing the part")
+	end
+	2 -- ".gcode file" --> 3
+	4("4. (Optional) Postprocessing")
+	3 -- "Printed part" --> 4
+</pre>
+<h2 id="1---obtaining-the-part-design">1 - Obtaining the part design</h2>
+<p>There are two options when it comes to this:</p>
+<ul>
+<li>Download a design from an online 3D model sharing site such as <a href="https://www.printables.com/">Printables</a> or <a href="https://www.thingiverse.com/">Thingiverse</a>. Printables is the newer site, but Thingiverse has a larger collection. When using such sites to get a model, <strong>please comply with the design license restrictions.</strong></li>
+<li>Design the part yourself. For 3D printing, parametric CAD software such as <a href="https://www.autodesk.com/products/fusion-360/overview?term=1-YEAR&amp;tab=subscription">Fusion360</a> and <a href="https://www.onshape.com/en/">Onshape</a> are often used. However, 3D mesh modelling software such as <a href="https://www.blender.org/">Blender</a> may be used as well.</li>
+</ul>
+<h3 id="optional-parametric-cad-vs-mesh-modelling">(Optional) Parametric CAD vs Mesh Modelling</h3>
+<p>Parametric CAD programs use sketches, dimensions, and constraints to represent a 3D model, while mesh modelling software use vertices and faces to represent a 3D model. In practice, this means that designs done in parametric CAD tend to me more dimensionally accurate, while mesh modelling allows for more artistic freedom.</p>
+<p>That said, parametric CAD software tend to require paid or educational licenses and are closed-source, while Blender is professional-grade, free, and open-source. There <em>are</em> open-source parametric CAD software out there, but they are far behind the paid options (in my opinion).</p>
+<p>If you aren&rsquo;t part of an educational institution or have no means to get a professional license for parametric CAD software such as Fusion360, I would recommend Onshape as they intend to keep a free tier forever. Note that anything you design on the free tier of Onshape are publicly accessible by anyone.</p>
+<h3 id="file-formats">File Formats</h3>
+<p>In the past, the standard for 3D design files for 3D printing was the .stl file format, but in recent years, better formats such as .3mf have gained popularity. If you are to design your own parts, I would recommend exporting in the .3mf file format.</p>
+<p>If you want to investigate the differences between .stl and .3mf files in more detail, check out <a href="https://www.3dnatives.com/en/stl-vs-3mf-280620224/">this article</a>.</p>
+<p>In a nutshell, compared to .stl files, .3mf files are:</p>
+<ul>
+<li>more compressed (smaller file sizes)</li>
+<li>may contain material or color information</li>
+<li>may contain printing options</li>
+<li>specifically designed for use in 3D printing.</li>
+</ul>
+<h2 id="2---slicing">2 - Slicing</h2>
+<p>Our 3D design files contain information about the form of the 3D part we want to print, but unfortunately, 3D printers are dumb. 3D printers only understand machine instructions, which are more or less:</p>
+<blockquote>
+<p>&ldquo;Move the X motor by 30 steps&rdquo;
+&ldquo;Move the Z motor by 2 steps&rdquo;
+&ldquo;Move the E motor by 7 steps while moving the Y motor by -31 steps&rdquo;</p>
+</blockquote>
+<p>But how do we go from the dimensions of the part to instructions for the machine to print our part? This is where the <strong>slicer</strong> comes in.</p>
+<p>A slicer is essentially a piece of software that takes in parameters about how you want a part printed (how fast the machine should move, what material is being used), and turns it into machine instructions (.gcode files). It&rsquo;s called a &ldquo;slicer&rdquo; because it turns solid model objects into instructions for the printer to create the model out of 2D &ldquo;slices&rdquo; (layers) of material.</p>
+<p>The most common slicers used these days are <a href="https://ultimaker.com/software/ultimaker-cura/">Cura</a> and <a href="https://www.prusa3d.com/page/prusaslicer_424/">PrusaSlicer</a>, both of which are completely free and open-source. For beginners, I recommend Cura a little more, but if you want full control over the slicing process, I prefer PrusaSlicer. Both are fairly beginner-friendly if you ignore all the additional/expert parameters.</p>
+<h3 id="a-little-note-about-all-the-parameters">A little note about all the parameters</h3>
+<p>As long as your printer isn&rsquo;t super obscure and has a decent userbase, chances are that these two slicer software already have default settings made for your printer, which you can select in the setup process. For some models, these default settings should work, but due to the limitations of 3D printing, many models will fail to print. We&rsquo;ll cover the limitations of 3D printing in more detail later.</p>
+<h3 id="note-about-ultimaker-printers">Note about Ultimaker printers</h3>
+<p>If you are using an Ultimaker printer, I <strong>highly</strong> suggest you use Cura, as it was designed by Ultimaker to be used with their printers, and other slicers may not work seamlessly with the printer (some machines don&rsquo;t seem to use .gcode files).</p>
+<h2 id="3---printing-the-part">3 - Printing the part</h2>
+<p>Well, this stage is pretty self-explanatory. Most printers have a slot for an SD-card, microSD-card, or USB stick. After slicing, you should transfer the .gcode file to your SD-card/USB stick and put it back into the printer. You should then be able to select your file for printing through the printer&rsquo;s menu.</p>
+<p>Some newer printers support file transfer over WiFi, thus making the process completely wireless. I would like to note that this might not be a great option if your printer is located to a large network, as it might be hard to locate your printer in the network.</p>
+<h2 id="4---optional-postprocessing">4 - (Optional) Postprocessing</h2>
+<h3 id="removing-extra-structures">Removing extra structures</h3>
+<p>When you were slicing your 3D model, you may have gone to the preview tab and discovered that the slicer added some additional structures in addition to the model you want to print (We&rsquo;ll discuss why they exist later). After printing the model, you might have to remove these additional structures to obtain the part you&rsquo;re looking for.</p>
+<p>Common tools for the job are:</p>
+<ul>
+<li>Cutters</li>
+<li>Pliers</li>
+<li>Precision knife or box knife</li>
+</ul>
+<p>With a little brute force, you might be able to pry these unwanted structures away from your model.</p>
+<h3 id="removing-layer-lines">Removing layer lines</h3>
+<p><strong>Note that by doing postprocessing to remove the layer lines, you may change the dimensional accuracy or physical properties in the process. I would only recommend doing this if you care about the aesthetics of your part above all else.</strong></p>
+<p>Layer lines are inevitably visible with FFF 3D printing. They are created because the process relies on stacking layers of material on top of one another, so it&rsquo;s inevitable that the layers are going to be visible from the side of the print.</p>
+<p>If you find the layer lines on the part undesirable, there are several methods to remove them, but in this guide, we will focus on the sanding/wet-sanding + filler primer method as it doesn&rsquo;t require a lot of extra equipment and is fairly low-cost.</p>
+<p>The advantage of using wet-sanding over normal sanding is that the part will not heat up so much due to the presence of water, therefore your part is unlikely to deform due to heat from friction. However, it does also cause the process to be a little more messy.</p>
+<p>The method is as follows:</p>
+<ol>
+<li>Start with a low grit of sandpaper, somewhere around 200 grit.</li>
+<li>Sand the part</li>
+<li>Apply a coat of primer on the part (optional)</li>
+<li>Increase the grit of the sandpaper by 50-200 grit</li>
+<li>Repeat steps 2-4 until satisfied.</li>
+</ol>
+<p>Stopping at around 1000 grit will leave a rather matte finish, while going up to 4000 grit will start to make the part glossy purely from sanding. However, going to higher grits will take a considerable amount of time and effort.</p>
+<p>To finish the part off, using a final coat of spray paint should hide any remaining imperfections.</p>
+<h1 id="limitations">Limitations</h1>
+<p>Unfortunately, 3D printing isn&rsquo;t a silver bullet for manufacturing. There are two main limitations:</p>
+<ul>
+<li>3D printers are not able to print suspended pieces of plastic in midair because gravity exists.</li>
+<li>Because of thermal expansion and contraction, the layers of plastic actually contract slightly as they are printed on top of one another. This has several consequences, with the worst one being that the print fully detaching from the print bed, leading to a mess of a failed print (this is also known as &ldquo;printing spaghetti&rdquo;).</li>
+</ul>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Preface</title>
+      <link>https://cornerboxes.com/projects/3dp/0/</link>
+      <pubDate>Wed, 19 Jul 2023 22:11:32 +0300</pubDate>
+      
+      <guid>https://cornerboxes.com/projects/3dp/0/</guid>
+      <description>Introduction For most people getting started with 3D printing, it usually seems like a black box; you give it a 3D model of something you want, and it spits out a real, tangible object. Don&amp;rsquo;t get me wrong, there&amp;rsquo;s nothing inherently wrong with viewing 3D printing this way. However, that&amp;rsquo;s like buying a racing bike just to use it in 1st gear all the time; gaining a little more understanding about how the machine (or bicycle, if we are to continue the analogy) works goes a long way for getting what you want done faster and better.</description>
+      <content:encoded><![CDATA[<h2 id="introduction">Introduction</h2>
+<p>For most people getting started with 3D printing, it usually seems like a black box; you give it a 3D model of something you want, and it spits out a real, tangible object. Don&rsquo;t get me wrong, there&rsquo;s nothing inherently wrong with viewing 3D printing this way. However, that&rsquo;s like buying a racing bike just to use it in 1st gear all the time; gaining a little more understanding about how the machine (or bicycle, if we are to continue the analogy) works goes a long way for getting what you want done faster and better.</p>
+<p>This bundle is designed in modules: each module assumes the reader has read through and understood the previous bundle, and they explain different stages of the 3D printing process. They are ordered such that earlier modules contain fundamental knowledge about 3D printing, while later modules contain more obscure bits of information which you may be interested in if your goal is to get the absolute most out of your 3D printer.</p>
+<p>This is not a course; you are free to stop at any module if you deem that any further information will only lead to diminishing returns.</p>
+<p><strong>This bundle will be focusing on FDM/FFF (Fused Deposition Modelling/Fused Filament Fabrication) 3D printing. In layman terms, the type of 3D printing where plastic filament is involved.</strong></p>
+<h2 id="what-is-the-3d-printing-process">What is the 3D printing process?</h2>
+<p>It is the process to get from an idea of a component to a printed 3D model.</p>
+<p>In this bundle, the 3D printing process I will be referring to is the following:</p>
+<pre class="mermaid">flowchart LR
+	subgraph A["Computer"]
+		1("1. Designing the part")
+		2("2. Slicing the 3D model of the part")
+		1 -- ".stl/.3mf file" --> 2
+	end
+	subgraph B["Printer"]
+		3("3. Printing the model")
+	end
+	2 -- ".gcode file" --> 3
+</pre>
+<h2 id="module-structure">Module Structure</h2>
+<p>The modules will be arranged in the following topical order:</p>
+<ul>
+<li>Module 1 -</li>
+</ul>
+]]></content:encoded>
+    </item>
+    
+  </channel>
+</rss>

@@ -22,14 +22,11 @@ EnableImageZoom = true
 
 [params.homeInfoParams]
 Title = 'Welcome 👋'
-Content = """Hi! I'm Harvey Lim. Here's a quick introduction of me:
-- I am a **3rd-year university student studying at Aalto University**.
-- My major is **Digital Systems and Design**, and I am minoring in **Computer Science**.
-- I enjoy prototyping and tinkering with 3D printers.
+Content = """Hi! I'm Harvey Lim, a **3rd-year student at Aalto University**. I also go by "rv" or "shzhe02" online.
 
-This website is a small blog of sorts, with posts revolving around my interests. I hope you enjoy reading what I have created!
+This website is for documenting my personal projects and general blogging.
 
-Current status: Quantity over quality; expect low-quality content as I get used to this writing medium :)
+Hope you find something interesting!
 """
 
 [[params.socialIcons]]

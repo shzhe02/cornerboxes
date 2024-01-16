@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Behind &#34;A Guide to 3D Printing&#34; on cornerboxes</title>
+    <link>https://cornerboxes.com/thoughtbooks/3dp/</link>
+    <description>Recent content in Behind &#34;A Guide to 3D Printing&#34; on cornerboxes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 17 Aug 2023 17:04:41 +0300</lastBuildDate><atom:link href="https://cornerboxes.com/thoughtbooks/3dp/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[Part 1] Establishing Goals</title>
+      <link>https://cornerboxes.com/thoughtbooks/3dp/1/</link>
+      <pubDate>Thu, 17 Aug 2023 17:04:41 +0300</pubDate>
+      
+      <guid>https://cornerboxes.com/thoughtbooks/3dp/1/</guid>
+      <description>Introduction For the &amp;ldquo;A Guide to 3D Printing&amp;rdquo; bundle, the idea is to create a practical guide for people who currently view 3D printing as a black box that creates their desired 3D models in real life.
+You may check out the current posts here.
+Initial Difficulties For basically all my life, I&amp;rsquo;ve always been the learner, never the teacher.
+While trying to compile my knowledge into articles, the biggest difficulty I had was with structuring.</description>
+      <content:encoded><![CDATA[<h2 id="introduction">Introduction</h2>
+<p>For the &ldquo;A Guide to 3D Printing&rdquo; bundle, the idea is to create a practical guide for people who currently view 3D printing as a black box that creates their desired 3D models in real life.</p>
+<p>You may check out the current posts <a href="/projects/3dp">here</a>.</p>
+<h2 id="initial-difficulties">Initial Difficulties</h2>
+<p>For basically all my life, I&rsquo;ve always been the learner, never the teacher.</p>
+<p>While trying to compile my knowledge into articles, the biggest difficulty I had was with structuring. Since pieces of knowledge tend to be connected with other pieces of knowledge in a web-like way, it is very tricky to structure everything such that the knowledge can be understood linearly.</p>
+<p>Additionally, another issue I kept running into is using jargon that I hadn&rsquo;t yet introduced to the reader.</p>
+<h3 id="takeaway-1">Takeaway 1</h3>
+<p>In the beginning, I tried to assume that the user already knows how to design a 3D model, how to slice a file, and how to print their desired model. However, when I considered who might read my article, I realized that assuming everyone&rsquo;s baseline knowledge might lead to complications further down the line, so I decided to rewrite the first couple modules such that they require no prerequisite knowledge.</p>
+<h3 id="takeaway-2">Takeaway 2</h3>
+<p>While writing the first module, I realized that I also need to take into account how I retrieve my knowledge. Structuring everything mentally with the learner in mind is slowing things down a lot since I have a spend more time thinking than writing.</p>
+<p>I&rsquo;ve come up with a compromise, which is a two-pass method. In the first pass, I would &ldquo;blurt&rdquo; everything I know into the modules in the order they come to mind in, then the second pass would be for structuring the information once I&rsquo;ve already extracted it out of me.</p>
+]]></content:encoded>
+    </item>
+    
+  </channel>
+</rss>
