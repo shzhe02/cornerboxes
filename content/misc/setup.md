@@ -1,8 +1,8 @@
----
-title: "My Digital Setup"
-date: 2023-07-11T12:27:05+03:00
-draft: false
----
++++
+title = "My Digital Setup"
+date = 2023-07-11T12:27:05+03:00
+draft = false
++++
 
 I really enjoy semi-obscure technologies, and I try implementing many of them into my own computer. So, I thought it would be a little fun to make a little write-up about what components my setup consists of and why they exist.
 

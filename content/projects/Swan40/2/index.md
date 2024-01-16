@@ -1,8 +1,8 @@
----
-title: "[Part 2] Designing the Keyboard"
-date: 2023-08-07T21:58:25+03:00
-draft: false
----
++++
+title = "[Part 2] Designing the Keyboard"
+date = 2023-08-07T21:58:25+03:00
+draft = false
++++
 ## Tricks
 
 In my goals for this project, my number one goal was really the battery life. However, on a tiny split keyboard, I have not seen any good battery mounting methods that do not involve tenting the keyboard to make space below it or having it on the side. I want the battery to be part of the keyboard such that the keyboard's physical footprint doesn't have to extend too much to accommodate for it.

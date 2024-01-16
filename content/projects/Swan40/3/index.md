@@ -1,8 +1,8 @@
----
-title: "[Part 3] Adding a Dongle"
-date: 2023-09-15T16:19:34+03:00
-draft: false
----
++++
+title = "[Part 3] Adding a Dongle"
+date = 2023-09-15T16:19:34+03:00
+draft = false
++++
 Note: This isn't going to be an explicit guide on how to add a dongle to any ZMK board. I will create a post for that later.
 # Background
 

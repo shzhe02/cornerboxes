@@ -1,8 +1,8 @@
----
-title: "About Site"
-date: 2023-06-22T22:03:59+03:00
-draft: false
----
++++
+title = "About Site"
+date = 2023-06-22T22:03:59+03:00
+draft = false
++++
 The main purpose of this site to allow me to create and share content easily.
 
 After trying numerous other website-creation tools, I eventually settled on using the [Hugo static site generator](https://gohugo.io) along with the [PaperModX theme](https://reorx.github.io/hugo-PaperModX/) which I [forked](https://github.com/shzhe02/PaperModX-nordish) to apply the [Nord color scheme](https://www.nordtheme.com/).

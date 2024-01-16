@@ -1,8 +1,8 @@
----
-title: "About Me"
-date: 2023-06-22T21:28:18+03:00
-draft: false
----
++++
+title = "About Me"
+date = 2023-06-22T21:28:18+03:00
+draft = false
++++
 # TL;DR
 
 Hello there, my name is Harvey Lim (21M, as of August 2023).

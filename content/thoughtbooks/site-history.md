@@ -1,8 +1,8 @@
----
-title: "Previous Site Attempts"
-date: 2023-06-22T22:14:27+03:00
-draft: false
----
++++
+title = "Previous Site Attempts"
+date = 2023-06-22T22:14:27+03:00
+draft = false
++++
 If you haven't already checked out the [about site page](/about/about-site), please read it first for some context.
 
 ## Attempt 1: Wordpress

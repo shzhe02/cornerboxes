@@ -1,8 +1,8 @@
----
-title: "Getting Nushell to run in an Alpine Linux container"
-date: 2023-07-11T13:11:22+03:00
-draft: false
----
++++
+title = "Getting Nushell to run in an Alpine Linux container"
+date = 2023-07-11T13:11:22+03:00
+draft = false
++++
 
 From my post about my digital setup, I wanted to quickly write a small post about getting nushell and starship working in an Alpine Linux [Toolbx](https://containertoolbx.org/) container.
 

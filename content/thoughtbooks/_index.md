@@ -1,4 +1,4 @@
----
-title: "Thoughtbooks"
-description: "Documentation regarding my thought processes."
----
++++
+title = "Thoughtbooks"
+description = "Documentation regarding my thought processes."
++++
