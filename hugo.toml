@@ -37,6 +37,11 @@ url = 'https://github.com/shzhe02'
 name = 'linkedin-simple'
 url = 'https://www.linkedin.com/in/shzhe02/'
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
 [languages.en]
 languageName = "English"
 weight = 1

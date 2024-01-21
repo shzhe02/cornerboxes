@@ -1,5 +1,5 @@
 +++
-title = "[Part 2] Designing the Keyboard"
+title = "[2] Designing the Keyboard"
 date = 2023-08-07T21:58:25+03:00
 draft = false
 +++

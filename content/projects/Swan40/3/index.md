@@ -1,5 +1,5 @@
 +++
-title = "[Part 3] Adding a Dongle"
+title = "[3] Adding a Dongle"
 date = 2023-09-15T16:19:34+03:00
 draft = false
 +++
