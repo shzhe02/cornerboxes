@@ -64,3 +64,21 @@ with PGPR being the biggest by far.
 (All the buildings marked in green are part of PGPR. Just PGPR. This extends to behind me in the photo too. PH, LH, and HH are all located behind PGPR.)
 
 Just the sheer scale of the accommodations here is astounding to me. However, I guess that is to be expected considering that NUS has a student population 3 times the size of Aalto's.
+
+## My Go-to Shops
+
+For settling in, I ended up visiting a couple stores:
+- [IKEA Alexandra](https://maps.app.goo.gl/9CnSpnr38GiPnFf96) (For bedding and laundry basket)
+- [Kent Ridge MRT](https://maps.app.goo.gl/UUbhQKfzNjxfdQas7) (Specifically for FairPrice, which is a supermarket that is pretty cheap.)
+- [Clementi Mall](https://maps.app.goo.gl/ZLvzPfcxhdfjeTjQ9) (Good selection of different shops. I mainly went there for Uniqlo since I was lacking a few pieces of clothing.)
+
+# Extras
+
+## Money Matters
+
+So far, I've been using the following payment methods in the following priority:
+1. Credit Card
+2. NETS
+3. Cash
+
+So far, using a credit card has netted me the best conversion rate from Euros to SGD (about 1.47 SGD per Euro), with my secondary being NETS due to the ability to load money onto my card using my credit card via the NETS app. Cash is the most used in Singapore, but as the conversion rate is a bit worse when withdrawing via ATMs (I got 1.40 from a UOB ATM at Clementi Mall), I tend not to use it as much. Also because I don't really like carrying cash due to its bulkiness.
