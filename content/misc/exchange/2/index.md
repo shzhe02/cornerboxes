@@ -48,7 +48,9 @@ There are also some outdoor amenities:
 - Several basketball courts
 - A tennis court
 
-This isn't really an amenity, but it was definitely convenient that the food court (yes, a whole food court) was situated about a 30-second-walk away from my room. This food court also had an air-conditioned seating area upstairs, which some students used to eat and study.
+The full list of amenities can be found [here](https://nus.edu.sg/osa/pioneerhouse/facilities).
+
+It was also definitely convenient that the food court (yes, a whole food court) was situated about a 30-second-walk away from my room. This food court also had an air-conditioned seating area upstairs, which some students used to eat and study.
 
 ## Touring PGP
 
