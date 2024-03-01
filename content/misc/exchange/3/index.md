@@ -16,7 +16,7 @@ Upon getting your selection results, you then need to request for tutorials and 
 
 I purposely didn't state the courses I applied for since I kept getting rejected from them (I applied for 12 courses in total for both rounds, but got a final total of 4). My courses are:
 - CS2100 - Computer Organization
-	- I picked this mainly for the assembly content as there are a few weeks with quite a lot of hands-on work with MIPS assembly. Besides that, this course overlaps quite heavily with ELEC-A7100 (Basic Course in C Programming) and ELEC-E8001 (Embedded Real-Time Systems).
+	- I picked this mainly for the assembly content as there are a few weeks with quite a lot of hands-on work with assembly. Besides that, this course overlaps quite heavily with ELEC-A7100 (Basic Course in C Programming) and ELEC-E8001 (Embedded Real-Time Systems).
 - CS3247 - Game Development
 	- I picked this for two reasons:
 		- I wanted to get into game development at some point just because it sounds fun.
@@ -32,3 +32,13 @@ My schedule looks like this:
 This schedule was created with a student-created website called [NUSmods](https://nusmods.com), which looks way better than EduRec, which is what NUS has for course management.
 
 Yes, I also planned for as few exams as possible to lighten the workload towards the end of the semester. I also tried to cluster as many sessions as possible together to maximize the amount of time blocks I have for concentrated work in one of my accommodation's seminar/reading rooms.
+
+# About Courses at NUS
+
+(edited 1st of March, 2023)
+
+Courses here consist of 1 to 3 parts: lectures (recitations), tutorials, and labs. Lectures are either used to introduce new concepts to students or as recitations where the last week's worth of material is summarized and/or reviewed (in the case of a flipped classroom course configuration). Tutorials are like walkthroughs for questions that relate to the course material or are past exam questions. It's more like a practical version of a lecture. Labs are where students need to actually complete exercises with or without assistance.
+
+Labs and tutorials are intended to have more student discussion, but usually the classroom tends to be quite quiet. Locals usually do not actively participate in classes (lectures/labs/tuts) unless there is merit or the group size is small and they are familiar with the student/professor in charge. I heard that this is due to active class participation causing others to think you are a smartass.
+
+The course material for my courses seem to be heavily reused for many years with minor tweaks. That said, the course material doesn't seem to be bad, as the explanations are quite straightforward. CS2100 and ME2102 in particular are very well-made courses in my opinion, but I might be biased as I had knowledge of the topics prior to taking the courses.
