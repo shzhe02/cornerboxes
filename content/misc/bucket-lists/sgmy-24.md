@@ -48,11 +48,11 @@ Note: a lot of the bucket list items aren't exactly relevant to the country. Man
 - [x] Horlicks
 - [x] Barley
 - [x] Chrysanthemum tea (specifically Yeo's)
-- [ ] Winter melon tea (specifically Yeo's)
+- [x] Winter melon tea (specifically Yeo's)
 - [ ] Teh tarik
 - [x] Teh C
 - [x] 100 Plus
-- [ ] Lychee drink
+- [ ] Lychee drink (with actual lychee)
 - [x] Boba
 # Experiences
 
