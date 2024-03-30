@@ -26,7 +26,7 @@ Note: a lot of the bucket list items aren't exactly relevant to the country. Man
 - [x] Curry (of any kind)
 - [ ] Chicken curry (of any kind) with rice
 - [ ] Katsudon
-- [ ] Fried chicken (KFC)
+- [x] Fried chicken (KFC)
 - [ ] Fried chicken (Jollibee)
 - [ ] Duck rice
 - [ ] Ban mee (any dish)
@@ -71,7 +71,7 @@ Note: a lot of the bucket list items aren't exactly relevant to the country. Man
 - [x] Marina Bay
 - [x] Sentosa
 - [x] Shopping mall (any)
-- [ ] Daiso
+- [x] Daiso
 - [x] Popular
 - [x] Uniqlo
 - [x] Woodlands checkpoint
