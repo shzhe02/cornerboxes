@@ -6,7 +6,7 @@ draft = false
 Note: a lot of the bucket list items aren't exactly relevant to the country. Many of them are just to relive some childhood moments.
 # Food
 
-- [ ] Nasi lemak 
+- [x] Nasi lemak 
 - [x] Mee goreng
 - [x] Roti prata
 - [ ] Roti canai
@@ -27,7 +27,7 @@ Note: a lot of the bucket list items aren't exactly relevant to the country. Man
 - [ ] Chicken curry (of any kind) with rice
 - [ ] Katsudon
 - [x] Fried chicken (KFC)
-- [ ] Fried chicken (Jollibee)
+- [x] Fried chicken (Jollibee)
 - [ ] Duck rice
 - [ ] Ban mee (any dish)
 - [x] Chee cheong fun
@@ -35,13 +35,12 @@ Note: a lot of the bucket list items aren't exactly relevant to the country. Man
 - [x] Rendang (of any kind)
 - [ ] Kuih (of any kind)
 - [x] Pei dan juk
-- [ ] Otak-otak
+- [x] Otak-otak
 - [ ] Char kway teow
 - [x] Kaya toast + half-boiled egg
 - [ ] Ais kachang
 - [ ] Pizza (of any kind)
 - [x] Mushroom soup (the canned kind?)
-- [ ] 
 # Drinks
 
 - [x] Milo
