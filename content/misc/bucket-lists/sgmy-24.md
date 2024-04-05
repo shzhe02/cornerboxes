@@ -63,7 +63,7 @@ Note: a lot of the bucket list items aren't exactly relevant to the country. Man
 - [ ] Have sushi from a conveyor belt
 - [ ] Buy pastries from a bakery
 - [ ] Roam around Changi/Jewel
-- [ ] Fly out of any Changi terminal except T1
+- [x] Fly out of any Changi terminal except T1
 - [ ] Take Changi's skytrain
 # Places
 
