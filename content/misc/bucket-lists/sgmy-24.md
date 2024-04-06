@@ -66,14 +66,14 @@ draft = false
 - [ ] Take Changi's skytrain
 # Places
 
-- [x] Marina Bay
-- [x] Sentosa
-- [x] Shopping mall (any)
-- [x] Daiso
-- [x] Popular
-- [x] Uniqlo
-- [x] Woodlands checkpoint
-- [x] Johor Bahru
-- [x] Kuala Lumpur
-- [x] Botanic garden
-- [ ] Mamak stall (any)
+- [x] Go to Marina Bay
+- [x] Go to Sentosa
+- [x] Go to a Shopping mall (any)
+- [x] Go to a Daiso
+- [x] Go to a Popular
+- [x] Go to a Uniqlo
+- [x] Go to Woodlands checkpoint
+- [x] Go to Johor Bahru
+- [x] Go to Kuala Lumpur
+- [x] Go to Botanic gardens
+- [ ] Go to a Mamak stall (any)
