@@ -9,7 +9,7 @@ Note: a lot of the bucket list items aren't exactly relevant to the country. Man
 - [x] Nasi lemak 
 - [x] Mee goreng
 - [x] Roti prata
-- [ ] Roti canai
+- [x] Roti canai
 - [x] Fried rice
 - [x] Chicken rice
 - [ ] Ramen
@@ -28,15 +28,15 @@ Note: a lot of the bucket list items aren't exactly relevant to the country. Man
 - [ ] Katsudon
 - [x] Fried chicken (KFC)
 - [x] Fried chicken (Jollibee)
-- [ ] Duck rice
-- [ ] Ban mee (any dish)
+- [x] Duck rice
+- [x] Ban mee (any dish)
 - [x] Chee cheong fun
 - [ ] Asam laksa
 - [x] Rendang (of any kind)
 - [ ] Kuih (of any kind)
 - [x] Pei dan juk
 - [x] Otak-otak
-- [ ] Char kway teow
+- [x] Char kway teow
 - [x] Kaya toast + half-boiled egg
 - [ ] Ais kachang
 - [ ] Pizza (of any kind)
@@ -51,7 +51,7 @@ Note: a lot of the bucket list items aren't exactly relevant to the country. Man
 - [ ] Teh tarik
 - [x] Teh C
 - [x] 100 Plus
-- [ ] Lychee drink (with actual lychee)
+- [x] Lychee drink (with actual lychee)
 - [x] Boba
 # Experiences
 
@@ -61,7 +61,7 @@ Note: a lot of the bucket list items aren't exactly relevant to the country. Man
 - [ ] Visit every MRT station
 - [x] Go to JB via Woodlands Checkpoint
 - [ ] Have sushi from a conveyor belt
-- [ ] Buy pastries from a bakery
+- [x] Buy pastries from a bakery
 - [ ] Roam around Changi/Jewel
 - [x] Fly out of any Changi terminal except T1
 - [ ] Take Changi's skytrain
@@ -75,6 +75,6 @@ Note: a lot of the bucket list items aren't exactly relevant to the country. Man
 - [x] Uniqlo
 - [x] Woodlands checkpoint
 - [x] Johor Bahru
-- [ ] Kuala Lumpur
+- [x] Kuala Lumpur
 - [x] Botanic garden
 - [ ] Mamak stall (any)
