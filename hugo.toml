@@ -17,7 +17,6 @@ TocSide = 'right'
 mainSections = ["projects", "thoughtbooks", "misc"]
 author = "Harvey Lim"
 ShowAuthor = true
-comments = true
 EnableImageZoom = true
 
 [params.homeInfoParams]
