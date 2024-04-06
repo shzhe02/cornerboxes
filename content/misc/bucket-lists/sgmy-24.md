@@ -3,7 +3,6 @@ title = "[Jan-May 2024] Singapore/Malaysia"
 date = 2024-03-26T01:26:13+08:00
 draft = false
 +++
-Note: a lot of the bucket list items aren't exactly relevant to the country. Many of them are just to relive some childhood moments.
 # Food
 
 - [x] Nasi lemak 
