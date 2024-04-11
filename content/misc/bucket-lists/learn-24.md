@@ -14,7 +14,10 @@ Unless stated otherwise, checking off a learning goal involves completing a proj
 - [ ] Create an app that includes some kind of chat functionality
 - [ ] Create an IoT enabled device (Alarm clock with wireless connectivity?)
 ## Web Development
+### General
 
+- [ ] Set up a reverse proxy
+- [ ] Run multiple services on one machine.
 ### Frontend
 
 - [ ] Svelte
