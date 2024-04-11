@@ -40,6 +40,7 @@ draft = false
 - [ ] Ais kachang
 - [ ] Pizza (of any kind)
 - [x] Mushroom soup (the canned kind?)
+- [x] KBBQ
 # Drinks
 
 - [x] Milo
