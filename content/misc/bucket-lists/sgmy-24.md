@@ -3,6 +3,8 @@ title = "[Jan-May 2024] Singapore/Malaysia"
 date = 2024-03-26T01:26:13+08:00
 draft = false
 +++
+
+**Update: Completed 59/67, 88%** 
 # Food
 
 - [x] Nasi lemak 
@@ -23,7 +25,7 @@ draft = false
 - [x] Tempura
 - [ ] Maggi goreng
 - [x] Curry (of any kind)
-- [ ] Chicken curry (of any kind) with rice
+- [x] Chicken curry (of any kind) with rice
 - [ ] Katsudon
 - [x] Fried chicken (KFC)
 - [x] Fried chicken (Jollibee)
@@ -37,8 +39,8 @@ draft = false
 - [x] Otak-otak
 - [x] Char kway teow
 - [x] Kaya toast + half-boiled egg
-- [ ] Ais kachang
-- [ ] Pizza (of any kind)
+- [x] Ais kachang
+- [x] Pizza (of any kind)
 - [x] Mushroom soup (the canned kind?)
 - [x] KBBQ
 # Drinks
@@ -48,7 +50,7 @@ draft = false
 - [x] Barley
 - [x] Chrysanthemum tea (specifically Yeo's)
 - [x] Winter melon tea (specifically Yeo's)
-- [ ] Teh tarik
+- [x] Teh tarik
 - [x] Teh C
 - [x] 100 Plus
 - [x] Lychee drink (with actual lychee)
@@ -60,11 +62,11 @@ draft = false
 - [ ] Take every MRT line
 - [ ] Visit every MRT station
 - [x] Go to JB via Woodlands Checkpoint
-- [ ] Have sushi from a conveyor belt
+- [x] Have sushi from a conveyor belt
 - [x] Buy pastries from a bakery
-- [ ] Roam around Changi/Jewel
+- [x] Roam around Changi/Jewel
 - [x] Fly out of any Changi terminal except T1
-- [ ] Take Changi's skytrain
+- [x] Take Changi's skytrain
 # Places
 
 - [x] Go to Marina Bay
