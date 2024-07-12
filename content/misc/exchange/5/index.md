@@ -264,6 +264,8 @@ My go-to shops were:
 - Clementi Mall (also not far from PH by bus)
 - Fairprice @ Kent Ridge MRT (within walking distance)
 
+With all my essentials purchased, this is what my room looked like:
+![room picture](room-pic.jpg)
 # Academics
 
 With all the settling in out of the way, it's time for the semester to start!
@@ -291,7 +293,8 @@ TODO
 ## Food
 
 TODO
-
+\
+Oh, also, tap water is drinkable in Singapore, unlike in other Southeast Asian countries. That said, the coldest tap water is more like room temperature, so I tend to get my water from a water cooler. Water coolers are located all over campus and are free to use. In addition to cold water, the water coolers also have boiling hot water, which makes making cup ramen super convenient.
 # Other TODOS:
 
 - [ ] PH location and nearby things
