@@ -1,7 +1,7 @@
 +++
 title = "[5] Final Report - End of Exchange"
 date = 2024-07-09T22:53:14+03:00
-draft = true
+draft = false
 +++
 
 This is going to be a really long, detailed report about my exchange semester at NUS. Some parts are just about administrative processes and paperwork, which may be boring, so feel free to skip and read as needed. 
@@ -137,7 +137,7 @@ I got allocated to... none of them.
 
 However~ there was a little box I ticked during my application, specifying that I do not mind being assigned to some other room if I got rejected by all my options. This led me to stay in Pioneer House! But, it's a non-aircon room... (non-aircon tales coming later)
 
-The rent for staying at Pioneer House (will be abbreviated to PH from now on) was 135 SGD/week, which had to be paid upfront. My stay was from 11th of January to 12th of May, totaling 17 weeks and 3 days, hence it cost 2,312 SGD (1,584 Euros as of 11th July). However, that was only for the stay starting on the 14th of January. To stay from the 11th to the 14th, I had to apply for early check-in, costing 58.29 SGD (39.94 Euros as of 11th July).
+The rent for staying at Pioneer House (will be abbreviated to PH from now on) was 135 SGD/week, which had to be paid upfront. My stay was from 12th of January to 12th of May, totaling 17 weeks and 2 days, hence it cost 2,312 SGD (1,584 Euros as of 11th July). However, that was only for the stay starting on the 14th of January. To stay from the 12th to the 14th, I had to apply for early check-in, costing 58.29 SGD (39.94 Euros as of 11th July).
 
 (I'm only realizing now that 2,312 > 17 x 135 and I have no idea where the extra cost came from either. Oh well...)
 
@@ -151,7 +151,152 @@ Upon approval, I don't actually get my STP immediately. STP is only actually act
 
 **Tip:** If you plan to use Singpass (Singapore's equivalent of our Finnish banks' "strong identification") you should also write down/store the Foreign Identification Number (FIN) written in the IPA. It's not the same FIN in your passport.
 
-TODO:
+Also, I apparently had to pay some kind of fee to ICA somewhere in this process, but I can't really remember clearly as it's been a long time.
+
+At this point, I was also able to book the timeslots for Registration Part 2 as well as the Offsite Enrollment. (These are in-person tasks, so I had to choose a timeslot that's after my arrival in Singapore)
+
+## Mandatory E-courses
+
+Before starting my exchange semester, I was also required to complete two online courses:
+- RC1000A - A Culture of Respect and Consent
+- SE1000 - Student Essentials
+
+These courses were mandatory in the sense that
+> "...failure to do so ... will impact your access to certain key student services ..."
+> 
+> "If you are residing in RCs/Halls/SRs/Houses," (basically all on-campus housing) "you may be evicted from your residence."
+
+### RC1000A - A Culture of Respect and Consent
+
+This course is basically about the very basics of how to treat others and what consent is.
+
+This course has two parts
+1. Watching some online videos provided to us on Canvas
+2. Book a workshop
+
+The online videos were presented in a visual-novel-esque form, alternating between cutscenes and interactive quizzes. They can't really be sped up, so it does take a couple hours to go through them all.
+
+The workshop's format depends on when you do this e-course. I did my e-course in mid-November while they still had it on Zoom, but I heard that other exchange students who did this after the semester started had to do this workshop in person.
+
+The workshop was attended by both exchangers as well as new NUS students, as both of these e-courses are mandatory for all NUS students (to my understanding). The workshop involved going through more situations like those mentioned in the videos, except we discussed what we'd do in groups instead of just typing it into a box.
+
+### SE1000 - Student Essentials
+
+This course was basically general academia rules, which effectively boiled down to "What is plagiarism?".
+
+This course only involved an interactive online video like the one in RC1000A, with no follow-up commitments.
+
+# Going to Singapore
+
+With two-thirds of the application processes complete, I was ready to go to Singapore.
+
+## Flights
+
+There were many options for flights to Singapore. Here are some of the options I've heard about, flown myself, or checked:
+- Qatar Airways (Helsinki → Doha → Singapore)
+- Finnair (Helsinki → Singapore)
+- Turkish Airways (Helsinki → Istanbul → Singapore)
+
+This time round, I believe Turkish Airways had some kind of promotion going on, as it was really cheap, and a lot of exchange students mentioned that they had Istanbul as a transit point before going to Singapore directly.
+
+However, I was unsure about the day I would fly back to Finland, so I decided to run with Finnair, which offered flexible return dates (as in, I just need to pay the price difference) if I booked an "Economy Classic" seat. Additionally, I read in one of the past years' exchangers' report that one student regretted booking a one-way flight and wished they had booked a flexible Finnair ticket instead.
+
+The flight ticket came out to about 850 euros.
+
+I booked my flight to arrive in Singapore on the 12th of January, but in hindsight, I should've gone at least one week earlier, as by the time I reached Singapore, a lot of the exchanger welcoming activities had finished already. A good rule of thumb would be to land at least 2 weeks before the semester starts.
+
+## Arrival
+
+### SIM Card
+
+Right after picking up my luggage, the first thing I went to pick up was a local SIM card, as it's always helpful to have internet and cellular access just in case.
+
+I went with Singtel because they offered 24/7 pickup at Changi (Singapore's airport) and I was able to order it online ahead of time. I went with the $30 5G hi!Tourist SIM card, but in hindsight, I wish I had gotten the cheapest possible 1-month Singtel prepaid SIM. More details on this later.
+
+### Transit Card
+
+The next thing I went to get was a transit card to allow me to use Singapore's public transportation systems. Well, actually, Singaporean public transit allows you to use your bank card (or a mobile virtual bank card) as a transit card, but I didn't know that at the time. That said, the transit cards have use cases outside of public transit, so I believe the information below may still be helpful.
+
+In Singapore, there are two types of cards that allow you to use the public transportation system:
+- EZ-Link (Costs 10 SGD upfront, of which 5 SGD will be stored on the card).
+- NETS (Costs 20 SGD upfront, of which 15 SGD will be stored on the card).
+	- That said, I heard some purchase points only require you to pay 10 SGD with 5 SGD stored on the card, just like EZ-Link.
+
+Both cards can be used for public transit and can be topped up through their respective mobile apps, but there are some differences in where else they can be used. For some context, there are a lot of payment terminals in Singapore that do not accept credit/debit cards, but rather accept EZ-link/NETS cards (and QR-based payment systems too, but we'll talk about that later). The NETS card is by far the most accepted one by most payment terminals in Singapore, with it being able to be used at even vending machines. That said, some much older terminals (in my case, the one in the printing room) only accepted older versions of the NETS card (that are no longer sold) or EZ-link cards. One last thing to note is that EZ-link cards can be topped up at all MRT stations in addition to their app, while NETS cards can only be topped up through the app.
+
+### Getting to Campus
+
+There are two main options for getting from the airport to NUS.
+- Public transport
+	- Pros:
+		- It's really cheap (2.24 SGD, from an online fare calculator)
+	- Cons:
+		- It's usually quite crowded, which might not be fun to deal with when you're lugging around your baggage.
+		- It a bit slow (a bit over 1 hour door to door).
+		- It only runs between 5:30 AM to 11 PM (in most cases).
+- Grab (essentially Southeast Asia's version of Uber)
+	- Pros:
+		- It's fast (25 minutes).
+		- It's effectively a taxi, so you can choose to be dropped off much nearer to your accommodation than the nearest bus or MRT stop.
+	- Cons:
+		- It's expensive (~30 SGD), but you can share the ride with up to 3 other people, but keep in mind that there are only so many luggages that can fit in one car.
+
+For Grab, what a lot of the exchange students do is find others in the WhatsApp group who are landing at similar times as them. That way, they can split the cost of the Grab, making it much more reasonable.
+
+I thought I'd be pretty drained from the flight, so I preemptively found another exchange student who would land around the same time I landed to share a Grab to campus.
+
+## Checking In
+
+By the time I got to PH, it was already past office hours. I had to check in after hours at the Fire Command Center (FCC). Luckily, it all worked out, and I got assigned room D on level 1 of block 24. This was coincidentally one of the closest rooms to the PGP canteen (a 30 second walk away). More on food later.
+
+The room includes a table, a chair, a wardrobe (?) and a mattress on a bed frame. It was actually pretty newly renovated and I was quite pleased... except for the fact that it was 29.6°C at 83% humidity. (I later learned that this was a good day. And yes, I brought a digital thermometer with me.)
+
+Also, upon entering my room, I had to make a check-in declaration on UHMS.
+
+Anyway, the first couple days in Singapore were spent getting some essentials like:
+- A pillow
+- Bedsheets and pillowcases
+- Laundry basket
+- Laundry detergent
+
+My go-to shops were:
+- IKEA (which actually wasn't too far away from PH by bus)
+- Clementi Mall (also not far from PH by bus)
+- Fairprice @ Kent Ridge MRT (within walking distance)
+
+# Academics
+
+With all the settling in out of the way, it's time for the semester to start!
+
+TODO
+# Facilities
+
+NUS's campus is absolutely gigantic. Although they may have around 3 times the number of students that Aalto has, they definitely have more than 3 times the number of buildings, so much so that there's an internal campus bus system run by NUS that allows students to hop on and hop off for free as they please.
+## Pioneer House
+
+TODO
+
+## Prince George's Park
+
+TODO
+
+## NUS Buildings
+
+TODO
+
+# Daily Life
+
+TODO
+
+## Food
+
+TODO
+
+# Other TODOS:
+
 - [ ] PH location and nearby things
 - [ ] Non-aircon tales
-- [x] STP application
+- [x] STP application\
+- [ ] Settling in
+- [ ] Daily life
+	- [ ] Payment methods
