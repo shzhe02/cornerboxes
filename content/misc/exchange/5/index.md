@@ -205,6 +205,8 @@ The flight ticket came out to about 850 euros.
 
 I booked my flight to arrive in Singapore on the 12th of January, but in hindsight, I should've gone at least one week earlier, as by the time I reached Singapore, a lot of the exchanger welcoming activities had finished already. A good rule of thumb would be to land at least 2 weeks before the semester starts.
 
+Before going to Singapore, I installed the ICA app to submit an arrival card (SGAC). Submitting an arrival card can be done within 72 hours of landing. Upon landing, this SGAC becomes an E-pass. This E-pass is voided the moment you get your STP.
+
 ## Arrival
 
 ### SIM Card
@@ -266,11 +268,120 @@ My go-to shops were:
 
 With all my essentials purchased, this is what my room looked like:
 ![room picture](room-pic.jpg)
+
+## Applying, Part 5: NIR Ingestion of COVID records
+
+This part is probably not relevant to any future exchangers, but it was supposedly "required" according to the exchange students' guide sent to us by NUS. This involved uploading your COVID vaccination certificates into the National Immunization Registry (NIR) through a verified third-party. There were two methods:
+- Using MyDoctorSG
+	- This method costs a bit, but it allows you to do this process online.
+- Going to a Joint Testing & Vaccination Center (JTVC) in person.
+	- This method is free, but requires you to go to specific JTVC points that allow for NIR ingestion.
+
+As it turns out, they needed a certification for every COVID vaccine you had, which means you needed to save every vaccination certificate you have gotten from the EU because the EU only gives a vaccination certificate for the latest dose.
+
+I ended up going to a JTVC point as I thought MyDoctorSG was a bit shady, and it took about 24-48 hours for my records to be properly ingested into the NIR.
+
+That said, I heard from some exchange students that they forgot to do this part entirely but still managed to proceed with the offsite enrollment, which was weird as this was supposed to be a requirement.
+
+## Applying, Part 6: "Registration Part 2"
+
+This part is basically "pick up your student card and activate it."
+
+Before doing this part, I had to pay the Miscellaneous Student Fees (MSF), which came out to 150 SGD.
+
+This part involves:
+1. Booking a pickup timeslot via EduRec
+2. Going to the pickup location with your passport
+3. Showing the people there the email proving that you are picking up your student card and your passport
+4. Picking up your student card
+5. Activating your student card on EduRec
+
+**Tip:** bring a pair of scissors with you, since you might need to cut stuff.
+
+Also, from what I hear, the timeslot is more of a measure to spread people out across the whole day, so arriving a bit early to pick up your card should be fine too.
+
+## Applying, Part 7 (Last Part): Offsite Enrollment
+
+In the case of some other Singaporean universities, when you want to get your STP, this part would happen at an ICA office. However, NUS has a special agreement with ICA which allows this process to happen on campus.
+
+To do this part, I needed to have physical passport pictures with me that met their requirements. That said, they have a photo studio at the offsite enrollment location too, and most people got their photos taken there as it would be guaranteed that the photos would meet their requirements.
+
+Aside from that, this process works similarly to Registration Part 2, but instead of picking up the student card, I had my biometric data (iris scan + fingerprints) taken. Also, after the process, I had to give a printed copy of my IPA with my Singaporean phone number written on it.
+
+After about a week, my STP was fully activated!
+
+To celebrate finally covering all aspects of the application process, here's a dependency graph:
+![dependency-graph](dependency-graph.jpeg)
+
 # Academics
 
 With all the settling in out of the way, it's time for the semester to start!
 
-TODO
+After the course selection process, I ended up with 4 courses:
+- CS2100 - Computer Organization (4 credits)
+- ME2102 - Engineering Innovation and Modelling (4 credits)
+- CS3247 - Game Development (4 credits)
+- EE3031 - Innovation & Enterprise I (4 credits)
+
+## CS2100 - Computer Organization
+
+Course link: https://nusmods.com/courses/CS2100/computer-organisation
+
+I picked this course because it's effectively the deep dive version of one of my favorite courses at Aalto, ELEC-E8001 - Embedded Real-Time Systems (which I'll call ERTS). While ERTS covers how CPUs work from a big picture perspective, CS2100 goes into how CPUs work on a logic gate level.
+
+This course was fairly challenging, but since I enjoyed the material and understanding, it was really fun!
+ 
+## ME2102 - Engineering Innovation and Modelling
+
+Course link: https://nusmods.com/courses/ME2102/engineering-innovation-and-modelling
+
+I picked this course since I wanted to learn how to use CAD properly, as my current understanding is merely from 3D printing. This course was split into two parts:
+1. CAD design
+2. Stress calculations
+
+The first part had labs where we would go to computer labs and design components (mandatory attendance), while the second part had tutorials where we would solve mechanical stress problems (optional attendance).
+
+The first part turned out pretty fun, learning all sorts of specific design terminology. However, due to my lack of background in mechanical engineering and my lack of interest in physics, the second part was really really hard. It basically involved a whole lot of calculations to figure out if some components could take a load without breaking.
+
+The course was partly easy, partly really challenging. Overall, I think it was pretty well taught (especially for the first lecturer), I just wasn't very into the material by the end of the course.
+## CS3247 - Game Development
+
+Course link: https://nusmods.com/courses/CS3247/game-development
+
+I picked this course because I wanted to learn about game development. However, this course used unreal engine and kept forcing us to take into account how to design for VR, which is something I felt was hindering my learning process. Additionally, the final project for this course had technical requirements, and I felt that we focused more on creating a game that fit these requirements rather than making a genuinely good game.
+
+This course had weekly tutorial sessions where we could ask teaching assistants for advice regarding our game, but attendance was optional.
+
+Overall, it wasn't a particularly enjoyable course. The project and mini-projects were also a lot of work.
+
+Also, running Unreal Engine on a laptop with integrated graphics in Singapore without aircon is an excellent way to get your CPU temperature up to 90°C.
+## EE3031 - Innovation & Enterprise I
+
+Course link: https://nusmods.com/courses/TEE3031/innovation-enterprise-i (It seems the code was changed to TEE3031 after I took it.)
+
+To be honest, I picked this course as a filler course.
+
+I actually quite enjoyed this course, in the sense that every lecture was very much like a story, and the professor is definitely quite eloquent. However, I feel like the examples he used to convey points were sometimes a bit outdated. I did understand his points, but sometimes their relevance to the present is questionable. Also, some other examples were exaggerated or oversimplified. This course came off very much like a story.
+
+This course could be considered the product development version of our TU-A1300 - Introduction to Industrial Engineering and Management here at Aalto, but this course also involved more practical parts like pitching, which really helped with improving public speaking skills.
+
+During this course, we had to pitch product ideas, which would then be voted on. Only the top 10 products were to move on to the later stages, where more and more details regarding how the product would go to market were developed. They said the product had to be achievable given current technologies, but given that one group used "vibranium" as a material, I'm guessing that requirement is bogus.
+
+One funny thing that happened is that about a fifth of the students taking this course were exchange students, but the majority of top 10 products were created by exchangers.
+
+Overall, a pretty fun course!
+
+However, I would like to note that the lectures for this course took place on Tuesday evenings from 6 PM to 9 PM. My naive self prioritized academics over events, and I ended up missing out on 5 really big events just because of this course. I think I was just horribly unlucky, as all the big events just all happened to be on Tuesday evenings.
+
+If I could pick courses again, I would definitely avoid evening courses, as lots of student activities happen then.
+
+## Observations
+
+While doing courses at NUS, I noticed a few differences from Finland. For example, it's usually frowned upon to directly refer to a professor by their first name like we do here. Rather, they prefer being called "professor" or "prof." I'm assuming this is due to their standard of respect.
+
+Also, one other thing I noticed was that student in-class participation was usually very low unless there was merit to doing so. I heard from local student that this is usually because most students are afraid of being "wrong." Even if student participation is rewarded, the responses from students tend to be what the professor wants to hear rather than their actual thoughts.
+
+There were a lot of instances (especially in CS2100) where the professor waits a bit after asking a question, waiting for a response, then just saying the answer right after, and I feel pretty bad for the professors when that happens.
 # Facilities
 
 NUS's campus is absolutely gigantic. Although they may have around 3 times the number of students that Aalto has, they definitely have more than 3 times the number of buildings, so much so that there's an internal campus bus system run by NUS that allows students to hop on and hop off for free as they please.
@@ -302,4 +413,6 @@ Oh, also, tap water is drinkable in Singapore, unlike in other Southeast Asian c
 - [x] STP application\
 - [ ] Settling in
 - [ ] Daily life
-	- [ ] Payment methods
+	- [ ] Payment methods\
+- [ ] Academics
+	- [ ] Add timetable
