@@ -7,6 +7,8 @@ draft = false
 This is going to be a really long, detailed report about my exchange semester at NUS. Some parts are just about administrative processes and paperwork, which may be boring, so feel free to skip and read as needed. 
 
 I'm simply going into a lot of detail as I myself wished I had known everything about what to expect before my exchange. Also, get ready to remember a whole lot of abbreviations.
+
+Don't expect many pictures, though. I mainly took pictures of food... T-T
 # Background
 
 Hi! I'm a 3rd-year bachelor student at Aalto University, taking the Digital Systems and Design major. Formally, my degree is
@@ -323,15 +325,21 @@ After the course selection process, I ended up with 4 courses:
 - CS3247 - Game Development (4 credits)
 - EE3031 - Innovation & Enterprise I (4 credits)
 
-## CS2100 - Computer Organization
+Here's what an average week looked like (in this case, March 25 to 31):
+![average timetable](timetable.jpeg)
+
+Also, all courses were taught in English.
+## CS2100 - Computer Organization (4 units / 6 ECTS)
 
 Course link: https://nusmods.com/courses/CS2100/computer-organisation
 
 I picked this course because it's effectively the deep dive version of one of my favorite courses at Aalto, ELEC-E8001 - Embedded Real-Time Systems (which I'll call ERTS). While ERTS covers how CPUs work from a big picture perspective, CS2100 goes into how CPUs work on a logic gate level.
 
 This course was fairly challenging, but since I enjoyed the material and understanding, it was really fun!
- 
-## ME2102 - Engineering Innovation and Modelling
+
+This course's final grade was determined through lab submission points, midterm exam points, and final exam points. The grades were curved.
+
+## ME2102 - Engineering Innovation and Modelling (4 units / 6 ECTS)
 
 Course link: https://nusmods.com/courses/ME2102/engineering-innovation-and-modelling
 
@@ -344,18 +352,20 @@ The first part had labs where we would go to computer labs and design components
 The first part turned out pretty fun, learning all sorts of specific design terminology. However, due to my lack of background in mechanical engineering and my lack of interest in physics, the second part was really really hard. It basically involved a whole lot of calculations to figure out if some components could take a load without breaking.
 
 The course was partly easy, partly really challenging. Overall, I think it was pretty well taught (especially for the first lecturer), I just wasn't very into the material by the end of the course.
-## CS3247 - Game Development
+
+Also, this course had 1 exam and 1 quiz for the first half, and 3 quizzes for the second half. The grades were curved.
+## CS3247 - Game Development (4 units / 6 ECTS)
 
 Course link: https://nusmods.com/courses/CS3247/game-development
 
 I picked this course because I wanted to learn about game development. However, this course used unreal engine and kept forcing us to take into account how to design for VR, which is something I felt was hindering my learning process. Additionally, the final project for this course had technical requirements, and I felt that we focused more on creating a game that fit these requirements rather than making a genuinely good game.
 
-This course had weekly tutorial sessions where we could ask teaching assistants for advice regarding our game, but attendance was optional.
+This course had weekly tutorial sessions where we could ask teaching assistants for advice regarding our game, but attendance was optional. Final grade was determined by 5 mini-projects + final project grades that were given by course assistants and/or the professor.
 
 Overall, it wasn't a particularly enjoyable course. The project and mini-projects were also a lot of work.
 
 Also, running Unreal Engine on a laptop with integrated graphics in Singapore without aircon is an excellent way to get your CPU temperature up to 90°C.
-## EE3031 - Innovation & Enterprise I
+## EE3031 - Innovation & Enterprise I (4 units / 6 ECTS)
 
 Course link: https://nusmods.com/courses/TEE3031/innovation-enterprise-i (It seems the code was changed to TEE3031 after I took it.)
 
@@ -375,6 +385,8 @@ However, I would like to note that the lectures for this course took place on Tu
 
 If I could pick courses again, I would definitely avoid evening courses, as lots of student activities happen then.
 
+Assessment for this course was done via many pitches and product reports that we had to make throughout the course.
+
 ## Observations
 
 While doing courses at NUS, I noticed a few differences from Finland. For example, it's usually frowned upon to directly refer to a professor by their first name like we do here. Rather, they prefer being called "professor" or "prof." I'm assuming this is due to their standard of respect.
@@ -382,18 +394,64 @@ While doing courses at NUS, I noticed a few differences from Finland. For exampl
 Also, one other thing I noticed was that student in-class participation was usually very low unless there was merit to doing so. I heard from local student that this is usually because most students are afraid of being "wrong." Even if student participation is rewarded, the responses from students tend to be what the professor wants to hear rather than their actual thoughts.
 
 There were a lot of instances (especially in CS2100) where the professor waits a bit after asking a question, waiting for a response, then just saying the answer right after, and I feel pretty bad for the professors when that happens.
+
+## My Experience
+
+Overall, I think the courses at NUS were definitely a lot more challenging than those at Aalto. They're a lot more strictly managed, considering how the courses than did have exams never only had one (CS2100 had midterm + final exam, ME2102 had CAD test, CAD quiz, followed by 3 mechanical-engineering-related tests). Also, attendance was definitely taken more often than here at Aalto.
 # Facilities
 
 NUS's campus is absolutely gigantic. Although they may have around 3 times the number of students that Aalto has, they definitely have more than 3 times the number of buildings, so much so that there's an internal campus bus system run by NUS that allows students to hop on and hop off for free as they please.
 ## Pioneer House
 
-TODO
+PH was, as I previously mentioned, my accommodation during my exchange in Singapore.
+
+Consisting of blocks 20 to 25 at PGP, it is the closest house to the PGP canteen, and aside from student housing, it also has lots of student spaces such as:
+- seminar rooms (basically classrooms)
+- lounges (basically a room with couches, tables, and chairs)
+- a quiet room (basically a lounge but with the implied rule of being quiet while using the space (although it felt like no one cared about that rule))
+
+All of which were air conditioned. It also has a laundry room in the B1 level for every pair of blocks (20/21, 22/23, 24/25), and there's one shared toilet for every floor of every block. 
+
+Block 24 is the only non-AC block, if I remember correctly.
+
+Also, there's a cool restaurant called JB101 within a 5 minute walk out the back gate, where you can get free flow ice cream (basically as much ice cream as you want) as long as you order a meal after 5 PM. It's only marginally more expensive than the meals at PGP canteen, costing around 5.50-6.50 SGD per meal.
+
+Unfortunately, I don't have any pictures of the accommodation besides those of my room.
 
 ## Prince George's Park
 
-TODO
+PGP is a pretty large area. Here's a picture I took of the entrance:
+![pgp](pgp.jpg)
 
-## NUS Buildings
+You can see the PGP Foyer campus bus stop in the picture too, where all the little poles are.
+
+All the blocks marked with green accents are part of PGPR. Behind PGPR, the color codes are as follows:
+- Yellow - LightHouse (LH)
+- Blue - Pioneer House (PH)
+- Red - Helix House (HH)
+
+PGP is a really large place. The following things are present:
+- Two basketball courts
+- A tennis court (?)
+- An outdoor gym
+	- It's like one of those mini neighborhood outdoor gyms with only machines. Although, nobody uses it because Singapore is hot.
+- An indoor gym (AC)
+	- Unlike the other on-campus gyms, you just need to show up to the security guard's desk with your student card, which you can exchange for a gym keycard for access.
+	- It's open 24/7, but the security guard may be asleep if you try to enter the gym at 4-5 AM (If you're the guard, sorry for waking you up T-T).
+- PGP Canteen
+	-  It's a food court. More about the options in the food section later.
+	- Stalls open around 7:30-8 AM in the morning, and close around 7 PM.
+- SuperSnacks
+	- A small restaurant that sells craving foods like chicken burgers, waffles, fries, quesadillas, among other things.
+	- I don't really know when it opens, but it closes at 1 AM, which is handy for when your lecture ends at 9 PM (looking at you, EE3031).
+- Pick & Go
+	- This is basically an Amazon Go. You install the app, link your payment card, get your app's QR code scanned at the entrance, pick what you want, and walk out. (I've never seen so many security cameras on one ceiling in my life before)
+	- It's more like a convenience store, so it mainly sells snacks and drinks, with some essential consumables like batteries or shampoo also present.
+	- The prices of most items are marked up a bit, so I would rather opt for getting stuff from FairPrice instead.
+	- It's open 24/7.
+## NUS Facilities
+
+Outside of PGP, I mainly frequented the buildings in the College of Design and Engineering (CDE) and School of Computing (SoC), as well as the central library.
 
 TODO
 
@@ -401,18 +459,67 @@ TODO
 
 TODO
 
+## Extracurricular Activities
+
+There are all sorts of 
+
 ## Food
 
-TODO
-\
-Oh, also, tap water is drinkable in Singapore, unlike in other Southeast Asian countries. That said, the coldest tap water is more like room temperature, so I tend to get my water from a water cooler. Water coolers are located all over campus and are free to use. In addition to cold water, the water coolers also have boiling hot water, which makes making cup ramen super convenient.
-# Other TODOS:
+Food in Singapore is really cheap. Meals usually cost around 6-8 SGD off-campus and 4-6 SGD on-campus. The food quality is also really really good; I still miss a lot of the things I ate on a daily basis over there...
 
-- [ ] PH location and nearby things
-- [ ] Non-aircon tales
-- [x] STP application\
-- [ ] Settling in
-- [ ] Daily life
-	- [ ] Payment methods\
-- [ ] Academics
-	- [ ] Add timetable
+My main go-tos were:
+- PGP Canteen
+- Kent Ridge MRT
+- JB101
+- Clementi Mall
+
+TODO
+
+Oh, also, tap water is drinkable in Singapore, unlike in other Southeast Asian countries. That said, the coldest tap water is more like room temperature, so I tend to get my water from a water cooler. Water coolers are located all over campus and are free to use. In addition to cold water, the water coolers also have boiling hot water, which makes making cup ramen super convenient.
+
+# Trips
+
+One of the reasons I chose Singapore as my exchange destination was because it was conveniently located near lots of other Asian countries. However, I ended up not using that ability very much. I visited Malaysia several times, both through the Woodlands Checkpoint (land border between Singapore and Malaysia) as well as by air, and I also visited Japan once.
+
+Not everyone will visit Japan, so I'll just give some tips for travelling to Malaysia.
+
+## Malaysia
+
+Travelling to Malaysia can be done in two ways. First, by crossing the land border (Woodlands Checkpoint) North of Singapore. I would recommend going nearer towards the afternoon to avoid the rush of people crossing the border to go to work. Also, make sure you have a debit/credit card that supports Visa, since Malaysian busses used within the border checkpoints lets you use your Visa card as your bus card. I learned this the hard way when I tried to cross the border with my MasterCard credit card and it didn't work.
+
+The second method is to travel by air, which costs about 65-75 euros for a round trip. I used this method a couple times during my exchange, and I would recommend AirAsia over Jetstar (those are generally the two main options for this route) as Jetstar flights on this route were often delayed.
+
+I'd like to note that Johor Bahru (the city you arrive in upon crossing the land border) is quite a bit more expensive than Kuala Lumpur. However, both places are cheap compared to Singapore.
+
+# Wrapping Up
+
+As of mid-May, my exchange semester ended. I'm really grateful to have been given this opportunity to study in Singapore, and I really think it was a once-of-a-lifetime experience, even if I didn't utilize it to the fullest. I met so many new people there from all over the world.
+
+## Takeaways
+
+This exchange was actually my first time living alone.
+
+TODO
+
+# Extras
+
+## Non-AC tales
+
+![temperature](temp.jpeg)
+I brought a little thermometer with me as a sanity checker. The temperature in my room ranged from 29.5°C to 32°C during my stay, with the humidity ranging from 75% to 90% (on rainy days).
+
+TL;DR: If you're planning to get a non-AC room when staying at NUS, don't.
+
+Not having an AC was pretty tough, since the heat wasn't at a level I could just ignore. The main issue with this is its interference with sleep. Here's roughly my method of managing to sleep:
+1. Take a cold shower (even though the cold water isn't really cold)
+2. Immediately head to bed and do not get off the bed.
+3. Do not toss and turn excessively.
+4. If you're unable to sleep after ~15min, head to the nearest lounge, don't turn on the lights, and make the AC cold.
+5. After ~15min, head back to the room and try to sleep again.
+6. Repeat as needed.
+
+Safe to say, there were a lot of 3 AM nights, and I roughly slept 6 hours on average during my exchange.
+
+The humidity was the main obstacle, as after a while, your skin will get sticky, making it really hard to get anything done.
+
+However, I can safely say that after about 3 months passed, my body eventually acclimated and 29°C started to feel cold in the weeks leading up to my departure. Coming back to Finland with this "heat resistance buff" was also rough since it was 7°C on arrival but it felt more like -2°C. It does wear off after a month or so, though.
