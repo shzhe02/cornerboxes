@@ -137,7 +137,7 @@ Anyway, using NUS's student accommodation system called UHMS, I was able to star
 
 I got allocated to... none of them.
 
-However~ there was a little box I ticked during my application, specifying that I do not mind being assigned to some other room if I got rejected by all my options. This led me to stay in Pioneer House! But, it's a non-aircon room...
+However, there was a little box I ticked during my application, specifying that I do not mind being assigned to some other room if I got rejected by all my options. This led me to stay in Pioneer House! But it's a non-aircon room...
 
 The rent for staying at Pioneer House (will be abbreviated to PH from now on) was 135 SGD/week, which had to be paid upfront. My stay was from 12th of January to 12th of May, totaling 17 weeks and 2 days, hence it cost 2,312 SGD (1,584 Euros as of 11th July). However, that was only for the stay starting on the 14th of January. To stay from the 12th to the 14th, I had to apply for early check-in, costing 58.29 SGD (39.94 Euros as of 11th July).
 
@@ -320,7 +320,7 @@ Aside from that, this process works similarly to Registration Part 2, but instea
 
 After about a week, my STP was fully activated!
 
-To celebrate finally covering all aspects of the application process, here's a dependency graph:
+To celebrate finally having covered all aspects of the application process, here's a dependency graph:
 ![dependency-graph](dependency-graph.jpeg)
 
 # Academics
@@ -488,7 +488,7 @@ Since the first three things are pretty universal experiences no matter where yo
 
 There are all sorts of activities available at NUS, with varying group sizes. They can go from campus-wide activity groups (which are called Co-Curricular Activities, or CCAs for short) to small clubs within each hostel, known as interest groups. Additionally, depending on your accommodation, there may be one-off accommodation-wide events like field trips.
 
-For CCAs, registration is done on a platform called NUSync. As for interest groups, field trips, etc, events are usually announced in Telegram channels with a link for signup. Or in the case of some interest groups (or IG for short), registration isn't required at all; you can just show up.
+For CCAs, registration is done on a platform called NUSync. As for interest groups, field trips, etc, events are usually announced in Telegram channels with a sign-up link. Or in the case of some interest groups (or IG for short), registration isn't required at all; you can just show up.
 
 In my case, I joined the NUS Hackers CCA (I'm actually not entirely sure if it's a CCA), which had regular talks twice a week about technical computer science topics and offered free bubble tea and pizza to participants. Additionally, I was also part of the programming IG and board games IG in PH, which has weekly sessions.
 
@@ -503,18 +503,13 @@ My main go-tos were:
 - Clementi Mall
 
 Here are some images of things I ate:
-![food-1](food-1.jpg)
-![food-2](food-2.jpg)
-![food-3](food-3.jpg)
-![food-4](food-4.jpg)
-![food-5](food-5.jpg)
-![food-6](food-6.jpg)
-![food-7](food-7.jpg)
-![food-8](food-8.jpg)
-![food-9](food-9.jpg)
-![food-10](food-10.jpg)
 
-Most of the above cost within 4-7 SGD.
+| ![food-1](food-1.jpg) | ![food-2](food-2.jpg) | ![food-3](food-3.jpg) |
+| --------------------- | --------------------- | --------------------- |
+| ![food-4](food-4.jpg) | ![food-5](food-5.jpg) | ![food-6](food-6.jpg) |
+| ![food-7](food-7.jpg) | ![food-8](food-8.jpg) | ![food-9](food-9.jpg) |
+
+Most of the above cost between 4 and 7 SGD.
 
 Oh, also, tap water is drinkable in Singapore, unlike in most other Southeast Asian countries. That said, the coldest tap water is more like room temperature, so I tend to get my water from a water cooler. Water coolers are located all over campus and are free to use. In addition to cold water, the water coolers also have boiling hot water, which makes making cup ramen super convenient.
 
@@ -522,11 +517,11 @@ Oh, also, tap water is drinkable in Singapore, unlike in most other Southeast As
 
 One of the reasons I chose Singapore as my exchange destination was because it was conveniently located near lots of other Asian countries. However, I ended up not using that ability very much. I visited Malaysia several times, both through the Woodlands Checkpoint (land border between Singapore and Malaysia) as well as by air, and I also visited Japan once.
 
-Not everyone will visit Japan, so I'll just give some tips for travelling to Malaysia.
+Not everyone will visit Japan, so I'll just give some tips for traveling to Malaysia.
 
 ## Malaysia
 
-Travelling to Malaysia can be done in two ways. First, by crossing the land border (Woodlands Checkpoint) North of Singapore. I would recommend going nearer towards the afternoon to avoid the rush of people crossing the border to go to work. Also, make sure you have a debit/credit card that supports Visa, since Malaysian busses used within the border checkpoints lets you use your Visa card as your bus card. I learned this the hard way when I tried to cross the border with my MasterCard credit card and it didn't work.
+Traveling to Malaysia can be done in two ways. First, by crossing the land border (Woodlands Checkpoint) North of Singapore. I would recommend going nearer towards the afternoon to avoid the rush of people crossing the border to go to work. Also, make sure you have a debit/credit card that supports Visa, since Malaysian busses used within the border checkpoints lets you use your Visa card as your bus card. I learned this the hard way when I tried to cross the border with my MasterCard credit card and it didn't work.
 
 The second method is to travel by air, which costs about 65-75 euros for a round trip. I used this method a couple times during my exchange, and I would recommend AirAsia over Jetstar (those are generally the two main options for this route) as Jetstar flights on this route were often delayed.
 
@@ -564,6 +559,4 @@ Not having an AC was pretty tough, since the heat wasn't at a level I could just
 
 Safe to say, there were a lot of 3 AM nights, and I roughly slept 6 hours on average during my exchange.
 
-The humidity was the main obstacle, as after a while, your skin will get sticky, making it really hard to get anything done.
-
-However, I can safely say that after about 3 months passed, my body eventually acclimated and 29°C started to feel cold in the weeks leading up to my departure. Coming back to Finland with this "heat resistance buff" was also rough since it was 7°C on arrival but it felt more like -2°C. It does wear off after a month or so, though.
+The humidity was the main obstacle, as after a while, your skin will get sticky, making it really hard to get anything done. However, I can safely say that after about 3 months passed, my body eventually acclimated and 29°C started to feel cold in the weeks leading up to my departure. Coming back to Finland with this "heat resistance buff" was also rough since it was 7°C on arrival but it felt more like -2°C. It does wear off after a month or so, though.
