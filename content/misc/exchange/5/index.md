@@ -137,7 +137,7 @@ Anyway, using NUS's student accommodation system called UHMS, I was able to star
 
 I got allocated to... none of them.
 
-However~ there was a little box I ticked during my application, specifying that I do not mind being assigned to some other room if I got rejected by all my options. This led me to stay in Pioneer House! But, it's a non-aircon room... (non-aircon tales coming later)
+However~ there was a little box I ticked during my application, specifying that I do not mind being assigned to some other room if I got rejected by all my options. This led me to stay in Pioneer House! But, it's a non-aircon room...
 
 The rent for staying at Pioneer House (will be abbreviated to PH from now on) was 135 SGD/week, which had to be paid upfront. My stay was from 12th of January to 12th of May, totaling 17 weeks and 2 days, hence it cost 2,312 SGD (1,584 Euros as of 11th July). However, that was only for the stay starting on the 14th of January. To stay from the 12th to the 14th, I had to apply for early check-in, costing 58.29 SGD (39.94 Euros as of 11th July).
 
@@ -215,7 +215,15 @@ Before going to Singapore, I installed the ICA app to submit an arrival card (SG
 
 Right after picking up my luggage, the first thing I went to pick up was a local SIM card, as it's always helpful to have internet and cellular access just in case.
 
-I went with Singtel because they offered 24/7 pickup at Changi (Singapore's airport) and I was able to order it online ahead of time. I went with the $30 5G hi!Tourist SIM card, but in hindsight, I wish I had gotten the cheapest possible 1-month Singtel prepaid SIM. More details on this later.
+I went with Singtel because they offered 24/7 pickup at Changi (Singapore's airport) and I was able to order it online ahead of time. I went with the $30 5G hi!Tourist SIM card.
+
+However, what I had wished I had done instead is
+1. Get a 30-day prepaid SIM card (from, for example, Singtel) that has airport pickup
+2. Do application process using that SIM's number.
+3. After getting STP, set up Singpass
+4. Order a Giga postpaid SIM
+
+This is because Giga offers free rollover data (unused data transfers to the next month), has really fast data speeds on campus (I got about 200 Mb/s at my accommodation, compared to just about 40Mb/s with Singtel), and has fairly cheap roaming packages for most asian countries (5 SGD/GB for Japan), and is pretty generous for about 10-15 SGD/month. Also, there's no cancellation fee when you want to stop using it.
 
 ### Transit Card
 
@@ -451,17 +459,38 @@ PGP is a really large place. The following things are present:
 	- It's open 24/7.
 ## NUS Facilities
 
-Outside of PGP, I mainly frequented the buildings in the College of Design and Engineering (CDE) and School of Computing (SoC), as well as the central library.
+Outside of PGP, I mainly frequented:
+- buildings of the College of Design and Engineering (CDE)
+	- it's arguably the hardest set of buildings to navigate through, unanimously agreed upon by every student I met.
+	- the majority of buildings have interconnects to one another, and the interconnects may connect different floors (For example, L7 of EA connects to B2 of E2) and there isn't really a guide on this so you have to figure it out for yourself.
+- buildings of the School of Computing (SoC)
+	- Pretty nice, although the first level of COM1 really feels like it was built to be a maze.
+- Central Library
+	- This felt a lot more like a huge study area more than a library. Every floor had tons of desks and chairs (which were very comfy).
+	- However, as this place is the go-to study area for most students, it's often very crowded, especially if you come after lunch.
 
-TODO
+Overall, there were a ton of buildings, and I think spending a day exploring campus could be a really fun experience!
 
 # Daily Life
 
-TODO
+To be honest, I didn't really take full advantage of my time during my exchange. My time in Singapore was mainly used for the following things:
+- Maintenance tasks (personal hygiene upkeep, laundry, etc)
+- Social media consumption
+- Studying (including lectures, tutorials, labs, etc)
+- Eating
+- Participating in extracurricular activities
+
+Since the first three things are pretty universal experiences no matter where you are as a student, I'll mainly be focusing on the last two.
+
+(Also, if you're going on exchange, no matter where you're going, please minimize time on social media and actually live life. Spending so much time on it is by far my biggest regret during my exchange semester.)
 
 ## Extracurricular Activities
 
-There are all sorts of 
+There are all sorts of activities available at NUS, with varying group sizes. They can go from campus-wide activity groups (which are called Co-Curricular Activities, or CCAs for short) to small clubs within each hostel, known as interest groups. Additionally, depending on your accommodation, there may be one-off accommodation-wide events like field trips.
+
+For CCAs, registration is done on a platform called NUSync. As for interest groups, field trips, etc, events are usually announced in Telegram channels with a link for signup. Or in the case of some interest groups (or IG for short), registration isn't required at all; you can just show up.
+
+In my case, I joined the NUS Hackers CCA (I'm actually not entirely sure if it's a CCA), which had regular talks twice a week about technical computer science topics and offered free bubble tea and pizza to participants. Additionally, I was also part of the programming IG and board games IG in PH, which has weekly sessions.
 
 ## Food
 
@@ -473,9 +502,21 @@ My main go-tos were:
 - JB101
 - Clementi Mall
 
-TODO
+Here are some images of things I ate:
+![food-1](food-1.jpg)
+![food-2](food-2.jpg)
+![food-3](food-3.jpg)
+![food-4](food-4.jpg)
+![food-5](food-5.jpg)
+![food-6](food-6.jpg)
+![food-7](food-7.jpg)
+![food-8](food-8.jpg)
+![food-9](food-9.jpg)
+![food-10](food-10.jpg)
 
-Oh, also, tap water is drinkable in Singapore, unlike in other Southeast Asian countries. That said, the coldest tap water is more like room temperature, so I tend to get my water from a water cooler. Water coolers are located all over campus and are free to use. In addition to cold water, the water coolers also have boiling hot water, which makes making cup ramen super convenient.
+Most of the above cost within 4-7 SGD.
+
+Oh, also, tap water is drinkable in Singapore, unlike in most other Southeast Asian countries. That said, the coldest tap water is more like room temperature, so I tend to get my water from a water cooler. Water coolers are located all over campus and are free to use. In addition to cold water, the water coolers also have boiling hot water, which makes making cup ramen super convenient.
 
 # Trips
 
@@ -497,18 +538,21 @@ As of mid-May, my exchange semester ended. I'm really grateful to have been give
 
 ## Takeaways
 
-This exchange was actually my first time living alone.
+This exchange was actually my first time living alone, so I ended up learning a lot about myself from that experience alone. That said, I feel like living on your own in NUS is like living alone lite edition. You have all the food choices you could want at a low price and are available throughout the day which means you basically never have to cook for yourself, bathrooms and hallways are cleaned on a daily basis for you, and you're in the middle of Singapore, meaning travel times are never excessive.
 
-TODO
+As a person who's been living in Finland for a really long time, I feel like one special takeaway I've had through this exchange experience is related to **people**. Compared to Finland, which sometimes feels like a ghost town the moment you step outside the city center, in Singapore, you basically cannot avoid seeing another person no matter where you are (unless it's like 4 AM). Although it sometimes does feel like you have little privacy or personal space, I think it really helped me realize the importance of social health. With the super high population density coupled with the frequent event announcements, it really doesn't get any easier to get to know new people and form new friendships.
+
+I don't mean that it's impossible to form friendships in Finland, but the fact is that student life in Singapore offers far more opportunities to create and maintain friendships.
 
 # Extras
 
-## Non-AC tales
+## Non-AC Life
 
 ![temperature](temp.jpeg)
+
 I brought a little thermometer with me as a sanity checker. The temperature in my room ranged from 29.5°C to 32°C during my stay, with the humidity ranging from 75% to 90% (on rainy days).
 
-TL;DR: If you're planning to get a non-AC room when staying at NUS, don't.
+TL;DR: Only get a non-AC room if you have actually lived in such conditions before. If not, I would heavily discourage it.
 
 Not having an AC was pretty tough, since the heat wasn't at a level I could just ignore. The main issue with this is its interference with sleep. Here's roughly my method of managing to sleep:
 1. Take a cold shower (even though the cold water isn't really cold)
