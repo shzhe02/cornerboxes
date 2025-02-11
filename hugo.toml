@@ -2,7 +2,6 @@ baseURL = 'https://cornerboxes.com/'
 languageCode = 'en-us'
 title = "cornerboxes"
 theme = 'PaperModX-nordish'
-paginate = 10
 
 [params]
 env = "production"
