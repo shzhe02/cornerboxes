@@ -2,3 +2,4 @@
 .trash/
 public/
 resources/
+.hugo_build.lock
