@@ -2,6 +2,7 @@ baseURL = 'https://cornerboxes.com/'
 languageCode = 'en-us'
 title = "cornerboxes"
 theme = 'PaperModX-nordish'
+enableGitInfo = true
 
 [params]
 env = "production"
@@ -15,7 +16,8 @@ ShowPostNavLinks = true
 TocSide = 'right'
 mainSections = ["projects", "thoughtbooks", "misc"]
 author = "Harvey Lim"
-ShowAuthor = true
+ShowWordCount = true
+ShowLastModified = true
 EnableImageZoom = true
 
 [params.homeInfoParams]
