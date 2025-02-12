@@ -52,11 +52,6 @@ url = "/projects/"
 weight = 2
 
 [[languages.en.menu.main]]
-name = "Thoughtbooks"
-url = "/thoughtbooks/"
-weight = 3
-
-[[languages.en.menu.main]]
 name = "Misc"
 url = "/misc/"
 weight = 4
