@@ -19,6 +19,7 @@ author = "Harvey Lim"
 ShowWordCount = true
 ShowLastModified = true
 EnableImageZoom = true
+comments = true
 
 [params.homeInfoParams]
 Title = 'Welcome 👋'

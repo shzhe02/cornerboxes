@@ -1,0 +1,16 @@
+<script defer src="https://comments.shzhe02.com/comentario.js"></script>
+<comentario-comments></comentario-comments>
+<noscript>Enable JavaScript to view comments.</noscript>
+
+<script>
+  const comentarioComments = document.getElementsByTagName("comentario-comments");
+  if (localStorage.getItem("theme") === "dark") {
+    for (const commentElement of comentarioComments) {
+      commentElement.setAttribute("theme", "dark");
+    }
+  } else {
+    for (const commentElement of comentarioComments) {
+      commentElement.setAttribute("theme", "light");
+    }
+  }
+</script>
