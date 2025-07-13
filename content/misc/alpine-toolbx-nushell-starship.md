@@ -1,6 +1,7 @@
 +++
 title = "Getting Nushell to run in an Alpine Linux container"
 date = 2023-07-11T13:11:22+03:00
+tags = [ "Guide" ]
 draft = false
 +++
 
