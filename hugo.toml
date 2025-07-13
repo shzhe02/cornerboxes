@@ -63,8 +63,8 @@ url = "/archives/"
 weight = 28
 
 [[languages.en.menu.main]]
-name = "Search"
-url = "/search/"
+name = "About"
+url = "/about/"
 weight = 29
 
 [[languages.en.menu.main]]
@@ -73,8 +73,8 @@ url = "/tags/"
 weight = 30
 
 [[languages.en.menu.main]]
-name = "About"
-url = "/about/"
+name = "Search"
+url = "/search/"
 weight = 31
 
 [outputs]
