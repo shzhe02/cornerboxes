@@ -174,7 +174,6 @@ Your `~/.config/containers/systemd/` directory should now look like the followin
 
 ```
 ~/.config/containers/systemd
-├── common.network
 ├── ollama.volume
 ├── ollama-webui-ollama.container
 ├── ollama-webui-openwebui.container
