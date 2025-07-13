@@ -30,5 +30,3 @@ As it turns out, most modern graphics APIs support something known as **compute 
 
 Safe to say, the verbosity of the code needed to work with graphics APIs spooked me for quite a while... like half a year. I eventually picked up Rust properly during this time, and I also learned the joys of adding additional crates to my project with a nice `cargo add <crate>` (as opposed to requiring tools like CMake).
 
-
-
