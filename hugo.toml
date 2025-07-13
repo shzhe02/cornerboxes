@@ -68,9 +68,14 @@ url = "/search/"
 weight = 29
 
 [[languages.en.menu.main]]
+name = "Tags"
+url = "/tags/"
+weight = 30
+
+[[languages.en.menu.main]]
 name = "About"
 url = "/about/"
-weight = 30
+weight = 31
 
 [outputs]
 home = [ "HTML", "RSS", "JSON" ]
