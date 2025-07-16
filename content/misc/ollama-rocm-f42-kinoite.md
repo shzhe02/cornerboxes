@@ -192,3 +192,5 @@ loginctl enable-linger <your user>
 ```
 
 Now, Ollama and Open WebUI should launch at boot time, and combined with Tailscale, you may now use Open WebUI across devices in your Tailnet right after powering on your system.
+
+**Edit**: Do note that your computer (that's running Ollama + Open WebUI) needs to be able to have network access at boot, which may not be trivial especially when using WiFi. In my case, using an ethernet connection seems to work just fine.
